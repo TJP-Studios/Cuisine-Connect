@@ -1,0 +1,128 @@
+@media screen and (max-width: 600px) {
+    
+    header, .recipe-form-hero, .recipe, .ingredients, .preparation, .tag, .privacy, .upload {
+        margin: 1% 5%;
+    }
+
+   .logo {
+        width: 20%;
+    }
+
+    .hamburger-close-toggle {
+        width: 15%;
+    }
+
+    nav {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .header-menus a, .search-input, header button, footer {
+        display: none;
+    }
+
+    .hamburger-icon {
+        display: block;
+    }
+
+    .recipe-form-hero h1 {
+        font-size: 24px;
+    }
+
+    .recipe-form-hero p, form label, section p, .recipe-upload p, .recipe-upload a {
+        font-size: 20px;
+        font-weight: 400;
+        margin: 0;
+    }
+
+    .note h5 {
+        font-size: 22px;
+    }
+
+    form h3 {
+        font-size: 20px;
+        padding: 0 5%;
+    }
+    form h3 span {
+        font-size: 12px;
+    }
+
+    form input {
+        width: 230px;
+        height: 30px;
+    }
+    
+    .tags input {
+        width: 405px;
+    }    
+
+    form select {
+        width: 230px;
+        height: 30px;
+    }
+
+    form textarea {
+        width: 500px;
+        height: 46px;
+    }
+
+    form button {
+        font-size: 18px;
+        vertical-align: middle;
+    }
+
+    .difficulty, .prep-time, .cook-time, .qty, .unit, .your-ingredients, .form-tag-btn {
+        display: none;
+    }
+
+    .recipe-title, .category {
+        margin-right: 7%;
+    }
+
+    .recipe-link, .servings {
+        margin-right: 0;
+    }
+
+   ::placeholder {
+        font-size: 14px;
+    }
+
+    .radio-us, .radio-metric {
+        width: 20%;
+    }
+
+    .radio-recipe {
+        display: block;
+        width: 100%;
+        /* margin: 0 1%; */
+    }
+
+    .radio-recipe label {
+        display: unset;
+    }
+
+    .radio-recipe input {
+        width: 5%;
+    }
+
+    .radio-us input, .radio-metric input {
+        width: 20%;
+    }
+
+    textarea {
+        text-align: center;
+    }
+
+    form p {
+        display: block;
+    }
+
+    form button {
+        padding: 4px 10px;
+        vertical-align: middle;
+    }
+
+    .note {
+        background-color: unset;
+    }
+}
