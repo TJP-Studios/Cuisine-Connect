@@ -7,6 +7,35 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+  <!-- Header -->
+<header>
+    <div class="logo">
+        <img src="./img/pics/Logo.png" alt="cuisine-connect-logo">
+    </div>
+          
+    <nav>
+        <div class="header-menus">
+            <a href="index.html" class="active">Home</a>
+            <a href="">Recipe</a>
+            <a href="community.html">Community</a>
+            <a href="recipe-form.html">Submit Recipe</a>
+            <a href="">Blog</a>
+        </div>
+          
+        <div class="hamburger-close-toggle">
+            <img src="./img/icons/Hamburger-icon.png" alt="Hamburger-icon" class="hamburger-icon">
+            <img src="./img/icons/close-icon.png" alt="close-icon" class="close-icon hide">
+        </div>
+    </nav>
+          
+    <div class="search-input">
+        <img src="./img/icons/Search-icon.png" alt="search-icon">
+        <input type="search" name="search" id="search" placeholder="Search For Recipe">
+    </div>
+          
+    <button>Login</button>
+</header>              
                   <!-- Discover Section -->
   <div class="discover">
 
@@ -20,7 +49,6 @@
       <div><img class="chef" src="/Images/OIP-removebg-preview 1.png" alt=""></div>
     </div>
 
-
   </div>
 
                     <!-- Top Recipes Section -->
@@ -31,7 +59,7 @@
 
     <div class="top_recipes_img">
       <img class="food_img" src="Images/Frame 1 1.png" alt="">
-      <img class="food_img" src="Images/Frame 1 2.png" alt="">
+      <img class="food_img mid" src="Images/Frame 1 2.png" alt="">
       <img class="food_img" src="Images/Frame 1 3.png" alt="">
     </div>
   </div>
@@ -39,34 +67,43 @@
                       <!-- Your Recipes Section -->
   <div class="your_recipes">
     <div class="your_recipes_text">
-      <p>Your Recipes</p>
+      <h3>Your Recipes</h3>
+      <p>See all</p>
     </div>
 
     <div class="your_recipes_img">
       <img class="food_img" src="Images/Frame 2 1.png" alt="">
+      <!-- <p>West African Beef Kabobs (Suya)</p> -->
+
       <img class="food_img mid" src="Images/Frame 2 2.png" alt="">
+      <!-- <p>West African Peanut Stew</p> -->
+
       <img class="food_img" src="Images/Frame 2 3.png" alt="">
+      <!-- <p>Nigerian Jollof Rice</p> -->
     </div>
   </div>
 
                       <!-- New Recipes Section -->
   <div class="new_recipes">
     <div class="new_recipes_text">
-      <p>New Recipes</p>
+      <h3>New Recipes</h3>
+      <p>See all</p>
     </div>
 
     <div class="new_recipes_img">
       <img class="food_img" src="Images/Frame 3 1.png" alt="">
-      <img class="food_img" src="Images/Frame 3 2.png" alt="">
+      <img class="food_img mid" src="Images/Frame 3 2.png" alt="">
       <img class="food_img" src="Images/Frame 3 3.png" alt="">
     </div>
   </div>
 
                       <!-- Testimonials Section -->
+  
+  <h3 class="tes_h3">Testimonials</h3>                    
   <div class="testimonials">
 
     <div class="jimmy">
-      <div>
+      <div class="flext">
         <div class="jimmy_img"><img src="Images/Jimmy Avatar.png" alt=""></div>
         <div class="jimmy_about">
           <h2>Jimmy Cater</h2>
@@ -81,7 +118,7 @@
 
 
     <div class="evelyn">
-      <div>
+      <div class="flext">
         <div class="evelyn_img"><img src="Images/Evelyn Avatar.png" alt=""></div>
         <div class="evelyn_about">
           <h2>Evelyn Prince</h2>
@@ -96,7 +133,7 @@
 
 
     <div class="blessing">
-      <div>
+      <div class="flext">
         <div class="blessing_img"><img src="Images/Blessing Avatar.png"></div>
         <div class="blessing_about">
           <h2>Blessing Paul</h2>
@@ -119,10 +156,63 @@
       <img src="Images/Googleplay avatar.png" alt=""> <img src="Images/Appstore avatar.png" alt="">
     </div>
 
-    <div class="downlod_img">
+    <div class="download_img">
       <img src="Images/20230728_150451_0000-removebg-preview 1.png" alt="">
     </div>
   </div>
+
+
+  <footer>
+    <div class="logo-socials">
+        <div class="logo">
+            <img src="./img/pics/Logo.png" alt="">
+        </div>
+        <div class="socials">
+            <img src="./img/icons/Facebook.png" alt="">
+            <img src="./img/icons/Twitter.png" alt="">
+            <img src="./img/icons/linkedin.png" alt="">
+            <img src="./img/icons/Google.png" alt="">
+        </div>
+    </div>
+
+    <div class="footer-nav">
+        <div class="footer-links">
+            <h3>Policy</h3>
+            <div class="footer-menus">
+                <a href="">Terms of Usage</a>
+                <a href="">Privacy Policy</a>
+                <a href="">Return Policy</a>
+            </div>
+        </div>
+
+        <div class="footer-links">
+            <h3>Category</h3>
+            <div class="footer-menus">
+                <a href="">African Recipes</a>
+                <a href="">Asian Recipes</a>
+                <a href="">Italian Recipes</a>
+            </div>
+        </div>
+
+        <div class="footer-links">
+            <h3>Blog</h3>
+            <div class="footer-menus">
+                <a href="">Community</a>
+                <a href="">Video</a>
+                <a href="">About Us</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="subscribe">
+        <p>
+            Subscribe to our newsletter, so that you can be the first to know about new offers and promotions
+        </p>
+
+        <input type="email" name="" id="" placeholder="Enter Email Address">
+        <a><button>Subscribe</button></a>
+    </div>
+</footer>
   
 </body>
 </html>
