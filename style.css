@@ -168,7 +168,6 @@ div > .chef{
       /* Your Recipes  */
 .your_recipes {
   margin: 0 3% 0 5%;
-  border: 1px solid blue;
 }   
 
 .your_recipes_text{
@@ -192,7 +191,6 @@ div > .chef{
                 /* New Recipes Section */
 .new_recipes{
   margin: 0 3% 0 5%;
-  border: 1px solid red;
 }                
 
 
@@ -219,7 +217,6 @@ div > .chef{
 .testimonials{
   margin: 0 3% 0 5%;
   display: flex;
-  border: 1px solid green;
 }
 
 .tes_h3{
@@ -230,9 +227,6 @@ div > .chef{
 .flext {
   display: flex;
 }
-
-
-
 
 
 
