@@ -7,6 +7,8 @@
 }
 
 body{
+  font-family: 'Inconsolata', monospace;
+  font-family: 'Lato', sans-serif;
 }
 
 img {
@@ -103,8 +105,8 @@ header button {
   justify-content: space-between;
   align-items: center;
   position: relative;
-  border: 1px solid red;
   position: relative;
+  margin: 0 3% 0 5%;
 }
 
 .discover_img{
@@ -115,6 +117,7 @@ display: flex;
 .ellipse {
   width: 20%;
   position: absolute;
+  top: 15%;
 }
 
 div > .chef{
@@ -127,17 +130,22 @@ div > .chef{
   width: 60%;
 }
 
-.discover_text{
- width: 33px;
+.discover_text > p {
+ font-size: 40px;
+ font-weight: 700;
+ line-height: 60px;
+ margin-left: -10%;
+ letter-spacing: -0.9%;
+ font-family: 'Inconsolata', monospace;
+ font-family: 'Lato', sans-serif;
 }
 
       /* top recipes */
 .top_recipes {
-  border: 1px solid blue;
-  margin-top: 2rem;
+  margin: 0 3% 0 5%;
 }
 .top_recipes_text > p {
-    font-size: 48px;
+    font-size: 38px;
     color: #2A2A2A;
     font-weight: 700;
     letter-spacing: 0.25%;
@@ -150,15 +158,115 @@ div > .chef{
 }
 
 .food_img {
-  width: 20%;
+  width: 31%;
   border-radius: 10px;
-  margin-right: 3%;
 }
 .mid {
-  margin: 0 15px;
+  margin: 0 3%;
+}
+
+      /* Your Recipes  */
+.your_recipes {
+  margin: 0 3% 0 5%;
+  border: 1px solid blue;
+}   
+
+.your_recipes_text{
+  display: flex;
+  margin-bottom: -2%;
+}
+.your_recipes_text > h3{
+  font-size: 38px;
+}
+
+.your_recipes_text > p{
+  font-size: 20px;
+  margin-left: 75%;
+  margin-bottom: -10%;
+  padding-top: 2%;
+  justify-content: flex-end;
+  color: #EE9A09;
+  ;
+}
+
+                /* New Recipes Section */
+.new_recipes{
+  margin: 0 3% 0 5%;
+  border: 1px solid red;
+}                
+
+
+.new_recipes_text{
+  display: flex;
+  margin-bottom: -2%;
+}
+.new_recipes_text > h3{
+  font-size: 38px;
+}
+
+.new_recipes_text > p{
+  font-size: 20px;
+  margin-left: 75%;
+  margin-bottom: -10%;
+  padding-top: 2%;
+  justify-content: flex-end;
+  color: #EE9A09;
+  ;
 }
 
 
+               /* Testimonials */
+.testimonials{
+  margin: 0 3% 0 5%;
+  display: flex;
+  border: 1px solid green;
+}
+
+.tes_h3{
+  font-size: 38px;
+  margin: 3% 3% 0 5%;
+}
+
+.flext {
+  display: flex;
+}
+
+
+
+
+
+
+                        /* Download Section */
+.download {
+  margin: 3% 3% 0 5%;
+  display: flex;
+  border: 1px solid purple;
+}
+
+.downlod_text{
+  padding-top: 8%;
+}
+
+.downlod_text > h2 {
+  font-size: 45px;
+  letter-spacing: 0.2%;
+}
+
+.downlod_text > p {
+  margin-top: -8%;
+  color: #2A2A2A;
+}
+
+.downlod_text > img {
+  width: 200px;
+}
+
+.download_img {
+  margin-left: 40%;
+}
+.download_img > img {
+  width: 250px;
+}
 
 
 
