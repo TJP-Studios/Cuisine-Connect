@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Lato:wght@700&display=swap')
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  margin: 25px;
+}
+
+.discover{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  border: 1px solid red;
+  position: relative;
+}
+
+.discover_img{
+  position: relative;
+display: flex;
+}
+
+.ellipse {
+  width: 20%;
+  position: absolute;
+}
+
+div > .chef{
+  justify-content: end;
+  width: 100%;
+}
+
+.chef {
+  justify-content: end;
+  width: 60%;
+}
+
+.discover_text{
+ width: 33px;
+}
+
+      /* top recipes */
+.top_recipes {
+  border: 1px solid blue;
+  margin-top: 2rem;
+}
+.top_recipes_text > p {
+    font-size: 48px;
+    color: #2A2A2A;
+    font-weight: 700;
+    letter-spacing: 0.25%;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Lato', sans-serif;
+}
+
+.top_recipes_img {
+
+}
+
+.food_img {
+  width: 20%;
+  border-radius: 10px;
+  margin-right: 3%;
+}
+.mid {
+  margin: 0 15px;
+}
+
+
+
+      width: 444px
+height: 136px
+top: 641px
+left: 64px
