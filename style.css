@@ -10,6 +10,86 @@ body{
   margin: 25px;
 }
 
+/* Header Starts Here*/
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1% 5% 2% 5%;
+}
+
+.logo {
+  width: 10%;
+}
+
+nav {
+  width: 50%;
+}
+
+nav .header-menus {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hamburger-icon, .close-icon {
+  display: none;
+  cursor: pointer;
+}
+
+nav a {
+font-size: 20px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0.0015em;
+text-align: left;
+color: rgba(42, 42, 42, 1);
+text-transform: uppercase;
+}
+
+nav .active {
+  color: #EE9A09;
+}
+
+.search-input {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2%;
+  padding: 8px 20px;
+  border: 1px solid #EE9A09CC;
+  border-radius: 4px;
+}
+
+.search-input img {
+  width: 10%;
+  cursor: pointer;
+}
+
+.search-input input {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: rgba(42, 42, 42, 1);
+  border: none;
+  outline: 0;
+  width: 80%;
+  /* padding: 1% 3%; */
+}
+
+header button {
+  font-size: 20px;
+  padding: 12px 20px;
+  border-radius: 4px;
+  background: #EE9A09;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+}
+/* Header Ends Here*/
+
+
 .discover{
   display: flex;
   justify-content: space-between;
@@ -69,3 +149,108 @@ div > .chef{
 .mid {
   margin: 0 15px;
 }
+
+
+
+
+
+
+
+/*Footer starts Here*/
+footer {
+  display: flex;
+  justify-content: space-between;
+  background: #D3D3D3;
+  padding: 3% 5%;
+}
+
+.logo-socials {
+  width: 40%;
+}
+
+footer .logo {
+  width: 45%;
+  margin-bottom: 7%;
+}
+
+.socials {
+  width: 10%;
+  display: flex;
+  gap: 15%;
+}
+
+.footer-nav {
+  display: flex;
+  width: 85%;
+}
+.footer-links {
+  width: 40%;
+}
+
+.footer-links h3 {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.0025em;
+  text-align: left;
+  color: rgba(42, 42, 42, 1);
+  margin-bottom: 3%;
+}
+
+.footer-links a {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.0015em;
+  text-align: left;
+  color: rgba(42, 42, 42, 1);
+  margin-bottom: 2%;
+}
+
+.footer-menus {
+  display: flex;
+  flex-direction: column;
+}
+
+.subscribe {
+  width: 50%;
+}
+
+.subscribe p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0.0015em;
+  text-align: justify;
+  color: rgba(42, 42, 42, 1);
+  margin-bottom: 5%;
+}
+
+.subscribe input {
+  /* width: 48%; */
+  padding: 12px 20px;
+  border-radius: 4px 0 0 4px;
+  border: 1px solid #2A2A2A;
+}
+
+.subscribe ::placeholder {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(42, 42, 42, 1);
+}
+
+.subscribe a button {
+padding: 9px 20px 12px 20px;
+border-radius: 0px 4px 4px 0px;
+border: 1px solid #2A2A2A;
+color: #FFFFFF;
+background-color: #2A2A2A;
+font-size: 20px;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: -0.02em;
+text-align: center;
+margin-left: -1%;
+}
+/*Footer Ends Here*/
