@@ -29,6 +29,7 @@ header {
 
 .logo {
     width: 10%;
+    cursor: pointer;
 }
 
 nav {
@@ -54,10 +55,23 @@ letter-spacing: 0.0015em;
 text-align: left;
 color: rgba(42, 42, 42, 1);
 text-transform: uppercase;
+transition: ease 0.3s;
 }
 
-nav .active {
+nav a:hover {
+    color: #EE9A09
+}
+
+.active {
     color: #EE9A09;
+    transition: 0.3s ease;
+}
+
+.active:hover {
+    border-top: 1px solid #EE9A09;
+    border-bottom: 1px solid #EE9A09;
+    padding-bottom: 2%;
+    padding-top: 2%;
 }
 
 .search-input {
@@ -65,13 +79,14 @@ nav .active {
     justify-content: flex-start;
     align-items: center;
     gap: 2%;
-    padding: 8px 20px;
+    padding: 1%;
     border: 1px solid #EE9A09CC;
     border-radius: 4px;
 }
 
 .search-input img {
-    width: 10%;
+    width: 6%;
+    margin-right: 1%;
     cursor: pointer;
 }
 
@@ -84,17 +99,22 @@ nav .active {
     border: none;
     outline: 0;
     width: 80%;
-    /* padding: 1% 3%; */
 }
 
-header button {
+.header-btn {
     font-size: 20px;
     padding: 12px 20px;
     border-radius: 4px;
     background: #EE9A09;
     color: #FFFFFF;
     border: none;
-    cursor: pointer;
+    transition: ease 0.3s;
+}
+
+.header-btn:hover {
+    background: #FFFFFF;
+    color: #EE9A09;
+    border: 1px solid #EE9A09;
 }
 /* Header Ends Here*/
 
@@ -112,7 +132,7 @@ color: rgba(42, 42, 42, 1);
 }
 
 .recipe-form-hero p, form label {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 500;
     line-height: 40px;
     letter-spacing: 0.0015em;
@@ -126,7 +146,7 @@ color: rgba(42, 42, 42, 1);
 
 form h3 {
     background: rgba(238, 154, 9, 0.3);
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 500;
     line-height: 48px;
     letter-spacing: 0.0025em;
@@ -188,7 +208,7 @@ form input, form select {
 }
 
 .category, .servings, .prep-time, .cook-time {
-    margin-right: 10%;
+    margin-right: 9%;
 }
 
 .description, .category, .servings, .difficulty, .prep-time, .cook-time {
@@ -204,7 +224,7 @@ textarea {
 }
 
 form p {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 500;
     letter-spacing: 0em;
     text-align: left;
@@ -236,12 +256,12 @@ form p {
 }
 
 .your-ingredients input, .tags input {
-    width: 447px;
+    width: 440px;
 }
 
 .radio-allow-recipe {
         display: inline;
-        margin-right: 8%;
+        margin-right: 5%;
 }
 
 .radio-keep-recipe {
@@ -258,13 +278,13 @@ form p {
     border: 1.5px solid rgba(238, 154, 9, 1);
 }
 
-form button {
+.form-btn {
     padding: 8px 15px;
     border-radius: 4px;
     border: none;
     background: #EE9A09;
     color: #FFFFFF;
-    font-size: 24px;
+    font-size: 22px;
     vertical-align: middle;
 }
 
@@ -282,7 +302,7 @@ form button {
     margin: 0 auto;
 }
 .recipe-upload p, .recipe-upload a {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 400;
     line-height: 40px;
     letter-spacing: 0em;
@@ -313,7 +333,7 @@ form button {
 }
 
 .note p {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 500;
     line-height: 40px;
     letter-spacing: 0.015em;
@@ -336,13 +356,13 @@ footer {
 
 footer .logo {
     width: 45%;
-    margin-bottom: 7%;
+    margin-bottom: 10%;
 }
 
 .socials {
-    width: 10%;
+    width: 45%;
     display: flex;
-    gap: 15%;
+    gap: 5%;
 }
 
 .footer-nav {
@@ -354,22 +374,21 @@ footer .logo {
 }
 
 .footer-links h3 {
-    font-size: 34px;
+    font-size: 28px;
     font-weight: 700;
-    line-height: 48px;
     letter-spacing: 0.0025em;
     text-align: left;
     color: rgba(42, 42, 42, 1);
-    margin-bottom: 3%;
+    margin-bottom: 10%;
 }
 
 .footer-links a {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     letter-spacing: 0.0015em;
     text-align: left;
     color: rgba(42, 42, 42, 1);
-    margin-bottom: 2%;
+    margin-bottom: 7%;
 }
 
 .footer-menus {
@@ -382,41 +401,48 @@ footer .logo {
 }
 
 .subscribe p {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 28px;
     letter-spacing: 0.0015em;
     text-align: justify;
     color: rgba(42, 42, 42, 1);
-    margin-bottom: 5%;
+    margin-bottom: 7%;
 }
 
 .subscribe input {
-    /* width: 48%; */
-    padding: 12px 20px;
+    padding: 2% 5%;
     border-radius: 4px 0 0 4px;
     border: 1px solid #2A2A2A;
 }
 
 .subscribe ::placeholder {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     letter-spacing: -0.02em;
     text-align: center;
-    color: rgba(42, 42, 42, 1);
+    color: rgba(42, 42, 42, 0.7);
+    vertical-align: middle;
 }
 
-.subscribe a button {
-padding: 9px 20px 12px 20px;
-border-radius: 0px 4px 4px 0px;
-border: 1px solid #2A2A2A;
-color: #FFFFFF;
-background-color: #2A2A2A;
-font-size: 20px;
-font-weight: 500;
-line-height: 17px;
-letter-spacing: -0.02em;
-text-align: center;
-margin-left: -1%;
+.subscribe a {
+    padding: 1.5% 5%;
+    border-radius: 0 4px 4px 0;
+    border: none;
+    color: #FFFFFF;
+    background-color: #2A2A2A;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin-left: -3%;
+    vertical-align: middle;
+    transition: 0.2s ease;
+}
+
+.subscribe a:hover {
+    color: #2A2A2A;
+    background-color: #FFFFFF;
+    border: 1px solid #2A2A2A;
 }
 /*Footer Ends Here*/

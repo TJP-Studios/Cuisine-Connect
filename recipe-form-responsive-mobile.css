@@ -1,7 +1,7 @@
 @media screen and (max-width: 600px) {
     
     header, .recipe-form-hero, .recipe, .ingredients, .preparation, .tag, .privacy, .upload {
-        margin: 1% 5%;
+        margin: 2% 5%;
     }
 
    .logo {
@@ -17,7 +17,7 @@
         justify-content: flex-end;
     }
     
-    .header-menus a, .search-input, header button, footer {
+    .header-menus a, .search-input, .header-btn, footer {
         display: none;
     }
 
@@ -30,14 +30,11 @@
     }
 
     .recipe-form-hero p, form label, section p, .recipe-upload p, .recipe-upload a {
-        font-size: 20px;
+        font-size: 16px;
         font-weight: 400;
         margin: 0;
     }
 
-    .note h5 {
-        font-size: 22px;
-    }
 
     form h3 {
         font-size: 20px;
@@ -47,7 +44,7 @@
         font-size: 12px;
     }
 
-    form input {
+    form input, form select {
         width: 230px;
         height: 30px;
     }
@@ -56,19 +53,14 @@
         width: 405px;
     }    
 
-    form select {
-        width: 230px;
-        height: 30px;
-    }
-
     form textarea {
         width: 500px;
         height: 46px;
     }
 
-    form button {
+    .form-btn {
         font-size: 18px;
-        vertical-align: middle;
+        padding: 6px 15px
     }
 
     .difficulty, .prep-time, .cook-time, .qty, .unit, .your-ingredients, .form-tag-btn {
@@ -91,22 +83,22 @@
         width: 20%;
     }
 
-    .radio-recipe {
+    .radio-allow-recipe, .radio-keep-recipe {
         display: block;
         width: 100%;
         /* margin: 0 1%; */
     }
 
-    .radio-recipe label {
+    .radio-allow-recipe label, .radio-keep-recipe label {
         display: unset;
     }
 
-    .radio-recipe input {
-        width: 5%;
+    .radio-allow-recipe input, .radio-keep-recipe input {
+        width: 3%;
     }
 
     .radio-us input, .radio-metric input {
-        width: 20%;
+        width: 15%;
     }
 
     textarea {
@@ -117,12 +109,15 @@
         display: block;
     }
 
-    form button {
-        padding: 4px 10px;
-        vertical-align: middle;
-    }
-
     .note {
         background-color: unset;
+    }
+
+    .note h5 {
+        font-size: 20px;
+    }
+
+    .note p {
+        font-size: 18px;
     }
 }

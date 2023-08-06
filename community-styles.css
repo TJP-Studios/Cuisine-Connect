@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-style: normal;
 }
 
 body {
@@ -56,10 +55,23 @@ letter-spacing: 0.0015em;
 text-align: left;
 color: rgba(42, 42, 42, 1);
 text-transform: uppercase;
+transition: ease 0.3s;
 }
 
-nav .active {
+nav a:hover {
+    color: #EE9A09
+}
+
+.active {
     color: #EE9A09;
+    transition: 0.3s ease;
+}
+
+.active:hover {
+    border-top: 1px solid #EE9A09;
+    border-bottom: 1px solid #EE9A09;
+    padding-bottom: 2%;
+    padding-top: 2%;
 }
 
 .search-input {
@@ -67,13 +79,14 @@ nav .active {
     justify-content: flex-start;
     align-items: center;
     gap: 2%;
-    padding: 8px 20px;
+    padding: 1%;
     border: 1px solid #EE9A09CC;
     border-radius: 4px;
 }
 
 .search-input img {
-    width: 10%;
+    width: 6%;
+    margin-right: 1%;
     cursor: pointer;
 }
 
@@ -86,17 +99,22 @@ nav .active {
     border: none;
     outline: 0;
     width: 80%;
-    /* padding: 1% 3%; */
 }
 
-header button {
+.header-btn {
     font-size: 20px;
     padding: 12px 20px;
     border-radius: 4px;
     background: #EE9A09;
     color: #FFFFFF;
     border: none;
-    cursor: pointer;
+    transition: ease 0.3s;
+}
+
+.header-btn:hover {
+    background: #FFFFFF;
+    color: #EE9A09;
+    border: 1px solid #EE9A09;
 }
 /* Header Ends Here*/
 
@@ -125,7 +143,7 @@ color: rgba(42, 42, 42, 1);
 }
 
 .community-hero-txt p {
-font-size: 24px;
+font-size: 20px;
 font-weight: 500;
 line-height: 40px;
 letter-spacing: 0.0015em;
@@ -152,20 +170,17 @@ vertical-align: middle;
 
 .community-members-search select {
     width: 13%;
-    /* height: 1%; */
     padding: 1% 0.5%;
     border-radius: 4px;
     background: rgba(238, 154, 9, 1);
     border: none;
     outline: 0;
-    margin-right: 9%;
+    margin-right: 8%;
     vertical-align: middle;
-
     font-size: 15px;
     font-weight: 400;
     line-height: 16px;
     letter-spacing: 0.015em;
-    /* text-align: left; */
     color: rgba(255, 255, 255, 1);
 
 }
@@ -223,11 +238,12 @@ vertical-align: middle;
     margin-bottom: 2%;
 }
 
-.community-media-live-video, .community-media-photo-video, .community-media-reaction {
-    width: 15%;
+.community-media-live-video a, .community-media-photo-video a, .community-media-reaction a {
+    width: 60%;
     display: flex;
     align-items: center;
     gap: 5%;
+    color: rgba(42, 42, 42, 1);
 }
 
 .community-media-live-video img, .community-media-photo-video img, .community-media-reaction img {
@@ -257,10 +273,10 @@ vertical-align: middle;
 }
 
 .community-users-txt p {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 24px;
     Line-height: 34px;
-    color: rgba(42, 42, 42, 1);
+    color: rgba(42, 42, 42, 0.7);
     margin: 10% 5%;
 }
 
@@ -272,10 +288,11 @@ vertical-align: middle;
     margin-bottom: 2%;
 }
 
-.community-icons-info {
+.community-icons-info a {
     display: flex;
     align-items: center;
     gap: 5%;
+    color: rgba(42, 42, 42, 0.7);
 }
 
 .community-icons-info img {
@@ -296,7 +313,7 @@ vertical-align: middle;
     width: 12px;
 }
 
-.pages-nav .border {
+.pages-nav .next-page-link {
     border: 1px solid rgba(238, 154, 9, 1);
     width: 32px;
     height: 32px;
@@ -326,14 +343,13 @@ footer {
 
 footer .logo {
     width: 45%;
-    margin-bottom: 7%;
-    cursor: pointer;
+    margin-bottom: 10%;
 }
 
 .socials {
-    width: 10%;
+    width: 45%;
     display: flex;
-    gap: 15%;
+    gap: 5%;
 }
 
 .footer-nav {
@@ -345,22 +361,21 @@ footer .logo {
 }
 
 .footer-links h3 {
-    font-size: 34px;
+    font-size: 28px;
     font-weight: 700;
-    line-height: 48px;
     letter-spacing: 0.0025em;
     text-align: left;
     color: rgba(42, 42, 42, 1);
-    margin-bottom: 3%;
+    margin-bottom: 10%;
 }
 
 .footer-links a {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     letter-spacing: 0.0015em;
     text-align: left;
     color: rgba(42, 42, 42, 1);
-    margin-bottom: 2%;
+    margin-bottom: 7%;
 }
 
 .footer-menus {
@@ -373,41 +388,48 @@ footer .logo {
 }
 
 .subscribe p {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 28px;
     letter-spacing: 0.0015em;
     text-align: justify;
     color: rgba(42, 42, 42, 1);
-    margin-bottom: 5%;
+    margin-bottom: 7%;
 }
 
 .subscribe input {
-    /* width: 48%; */
-    padding: 12px 20px;
+    padding: 2% 5%;
     border-radius: 4px 0 0 4px;
     border: 1px solid #2A2A2A;
 }
 
 .subscribe ::placeholder {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     letter-spacing: -0.02em;
     text-align: center;
-    color: rgba(42, 42, 42, 1);
+    color: rgba(42, 42, 42, 0.7);
+    vertical-align: middle;
 }
 
-.subscribe a button {
-padding: 9px 20px 12px 20px;
-border-radius: 0px 4px 4px 0px;
-border: 1px solid #2A2A2A;
-color: #FFFFFF;
-background-color: #2A2A2A;
-font-size: 20px;
-font-weight: 500;
-line-height: 17px;
-letter-spacing: -0.02em;
-text-align: center;
-margin-left: -1%;
+.subscribe a {
+    padding: 1.5% 5%;
+    border-radius: 0 4px 4px 0;
+    border: none;
+    color: #FFFFFF;
+    background-color: #2A2A2A;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin-left: -3%;
+    vertical-align: middle;
+    transition: 0.2s ease;
+}
+
+.subscribe a:hover {
+    color: #2A2A2A;
+    background-color: #FFFFFF;
+    border: 1px solid #2A2A2A;
 }
 /*Footer Ends Here*/
