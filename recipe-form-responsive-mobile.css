@@ -1,7 +1,7 @@
 @media screen and (max-width: 600px) {
     
     header, .recipe-form-hero, .recipe, .ingredients, .preparation, .tag, .privacy, .upload {
-        margin: 2% 5%;
+        margin: 1% auto;
     }
 
    .logo {
@@ -111,6 +111,7 @@
 
     .note {
         background-color: unset;
+        margin-bottom: 30%;
     }
 
     .note h5 {
