@@ -28,7 +28,7 @@ header {
     width: 95%;
 }
 
-.logo {
+.header-logo {
     width: 10%;
     cursor: pointer;
 }
@@ -46,6 +46,9 @@ nav .header-menus {
 .hamburger-icon, .close-icon {
     display: none;
     cursor: pointer;
+}
+.hamburger-menu {
+    display: none;
 }
 
 nav a {
@@ -356,7 +359,7 @@ footer {
     width: 40%;
 }
 
-footer .logo {
+.footer-logo {
     width: 45%;
     margin-bottom: 10%;
 }
@@ -390,7 +393,7 @@ footer .logo {
     letter-spacing: 0.0015em;
     text-align: left;
     color: rgba(42, 42, 42, 1);
-    margin-bottom: 5%;
+    margin-bottom: 6%;
 }
 
 .footer-menus {
@@ -446,5 +449,9 @@ footer .logo {
     color: #2A2A2A;
     background-color: #FFFFFF;
     border: 1px solid #2A2A2A;
+}
+
+.footer-hamburger-click {
+    display: none;
 }
 /*Footer Ends Here*/

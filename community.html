@@ -6,11 +6,15 @@
     <title>Our Community</title>
 
     <link rel="stylesheet" href="community-styles.css">
+    <link rel="stylesheet" href="header-footer-responsiveness.css">
+    <link rel="stylesheet" href="community-responsiveness.css">
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="./img/pics/Logo.png" alt="cuisine-connect-logo">
+        <div class="header-logo">
+            <a href="index.html">
+                <img src="./img/pics/Logo.png" alt="cuisine-connect-logo">
+            </a>
         </div>
 
         <nav>
@@ -22,7 +26,7 @@
                 <a href="">Blog</a>
             </div>
 
-            <div class="hamburger-close-toggle">
+            <div class="nav-icons">
                 <img src="./img/icons/Hamburger-icon.png" alt="Hamburger-icon" class="hamburger-icon">
                 <img src="./img/icons/close-icon.png" alt="close-icon" class="close-icon hide">
             </div>
@@ -36,7 +40,15 @@
         <a href="" class="header-btn">Login</a>
     </header>
 
-    <main>
+    <div class="hamburger-menu">
+        <a href="index.html">Home</a>
+        <a href="recipelist.html">Recipe</a>
+        <a href="community.html">Community</a>
+        <a href="recipe-form.html" class="active">Submit Recipe</a>
+        <a href="">Blog</a>
+    </div>
+
+    <main class="main-toggle">
         <section class="community-hero">
             <div class="community-hero-img">
                 <img src="./img/pics/girl-1.png" alt="">
@@ -76,35 +88,44 @@
                     </a>
                 
                     <input type="text" name="write" id="write" placeholder="Write something">
-            </div>
-
-            <div class="community-media">
-                <div class="community-media-live-video">
-                    <a href="">
-                        <img src="./img/icons/duo.png" alt="">
-                        <p>Live Video</p>
-                    </a>
                 </div>
 
-                <div class="community-media-photo-video">
+                <div class="community-media">
+                    <div class="community-media-live-video">
+                        <a href="">
+                            <img src="./img/icons/duo.png" alt="">
+                            Live Video
+                        </a>
+                    </div>
+
+                    <div class="community-media-photo-video">
                     <a href="">
                         <img src="./img/icons/broken_image.png" alt="">
-                        <p>Photo / Video</p>
+                        Photo / Video
                     </a>
-                </div>
+                    </div>
 
-                <div class="community-media-reaction">
+                    <div class="community-media-reaction">
                     <a href="">
                         <img src="./img/icons/sentiment_very_satisfied.png" alt="">
-                        <p>Feeling/Activity</p>
+                        Feeling/Activity
                     </a>
+                    </div>
                 </div>
-            </div>
+
                 <div class="community-users">
-                    <div class="community-users-pic">
-                        <a href="">
-                            <img src="./img/pics/Image.png" alt="">
-                        </a>
+                    <div class="community-users-profile">
+                        <div class="community-users-profile-pic">
+                            <a href="">
+                                <img src="./img/pics/Image.png" alt="">
+                            </a>
+                        </div>
+                            <div class="community-users-profile-info">
+                                <a href="">
+                                    <h5>@anibaba140</h5>
+                            <p>15 July at 8:30am</p>
+                                </a>
+                            </div>
                     </div>
                     <div class="community-users-txt">
                         <p>
@@ -143,30 +164,38 @@
                 </div>
 
                 <div class="community-users">
-                    <div class="community-users-pic">
-                        <a href="">
-                            <img src="./img/pics/Image-60.png" alt="">
-                        </a>
-                    </div>
-                        <div class="community-users-txt">
-                            <p>
-                                I'm so glad I stumbled upon this recipe! The combination of fresh herbs and lemon zest made the flavors burst in my mouth. Can't wait to make it again!
-                            </p>
+                    <div class="community-users-profile">
+                        <div class="community-users-profile-pic">
+                            <a href="">
+                                <img src="./img/pics/Image-1.png" alt="">
+                            </a>
                         </div>
+                            <div class="community-users-profile-info">
+                                <a href="">
+                                    <h5>@eka2005</h5>
+                            <p>16 July at 9:30am</p>
+                                </a>
+                            </div>
+                    </div>
+                    <div class="community-users-txt">
+                        <p>
+                                I'm so glad I stumbled upon this recipe! The combination of fresh herbs and lemon zest made the flavors burst in my mouth. Can't wait to make it again!
+                        </p>
+                    </div>
                 </div>
 
                 <div class="community-icons">
                     <div class="community-icons-info">
-                     <a href="">
-                        <img src="./img/icons/favorite.png" alt="">
+                        <a href="">
+                            <img src="./img/icons/favorite.png" alt="">
                         <p>1490</p>
-                     </a>
+                        </a>
                     </div>
                     <div class="community-icons-info">
-                     <a href="">
-                        <img src="./img/icons/chat_bubble.png" alt="">
+                        <a href="">
+                            <img src="./img/icons/chat_bubble.png" alt="">
                         <p>400</p>
-                     </a>
+                        </a>
                     </div>
                     <div class="community-icons-info">
                         <a href="">
@@ -177,16 +206,24 @@
                     <div class="community-icons-info">
                         <a href="">
                             <img src="./img/icons/bookmarks.png" alt="">
-                        <p>102</p>
+                        <p>104</p>
                         </a>
                     </div>
                 </div>
 
                 <div class="community-users">
-                    <div class="community-users-pic">
-                        <a href="">
-                            <img src="./img/pics/Image-74.png" alt="">
-                        </a>
+                    <div class="community-users-profile">
+                        <div class="community-users-profile-pic">
+                            <a href="">
+                                <img src="./img/pics/Image-2.png" alt="">
+                            </a>
+                        </div>
+                            <div class="community-users-profile-info">
+                                <a href="">
+                                    <h5>@ize_ed49</h5>
+                            <p>17 July at 10:30am</p>
+                                </a>
+                            </div>
                     </div>
                     <div class="community-users-txt">
                         <p>
@@ -217,20 +254,28 @@
                     <div class="community-icons-info">
                         <a href="">
                             <img src="./img/icons/bookmarks.png" alt="">
-                        <p>398</p>
+                        <p>298</p>
                         </a>
                     </div>
                 </div>
 
                 <div class="community-users">
-                    <div class="community-users-pic">
-                        <a href="">
-                            <img src="./img/pics/Image-73.png" alt="">
-                        </a>
+                    <div class="community-users-profile">
+                        <div class="community-users-profile-pic">
+                            <a href="">
+                                <img src="./img/pics/Image-3.png" alt="">
+                            </a>
+                        </div>
+                            <div class="community-users-profile-info">
+                                <a href="">
+                                    <h5>@knck_124</h5>
+                            <p>18 July at 11:30am</p>
+                                </a>
+                            </div>
                     </div>
                     <div class="community-users-txt">
                         <p>
-                            I made this for my picky eaters, and they couldn't get enough! The sauce was incredible, and the kids didn't even realize they were eating their veggies.
+                             I made this for my picky eaters, and they couldn't get enough! The sauce was incredible, and the kids didn't even realize they were eating their veggies.
                         </p>
                     </div>
                 </div>
@@ -239,34 +284,42 @@
                     <div class="community-icons-info">
                         <a href="">
                             <img src="./img/icons/favorite.png" alt="">
-                        <p>2983</p>
+                        <p>293</p>
                         </a>
                     </div>
                     <div class="community-icons-info">
                         <a href="">
                             <img src="./img/icons/chat_bubble.png" alt="">
-                        <p>233</p>
+                        <p>201</p>
                         </a>
                     </div>
                     <div class="community-icons-info">
                         <a href="">
                             <img src="./img/icons/share.png" alt="">
-                        <p>2332</p>
+                        <p>50</p>
                         </a>
                     </div>
                     <div class="community-icons-info">
                         <a href="">
                             <img src="./img/icons/bookmarks.png" alt="">
-                        <p>122</p>
+                        <p>24</p>
                         </a>
                     </div>
                 </div>
 
                 <div class="community-users">
-                    <div class="community-users-pic">
-                        <a href="">
-                            <img src="./img/pics/Image-72.png" alt="">
-                        </a>
+                    <div class="community-users-profile">
+                        <div class="community-users-profile-pic">
+                            <a href="">
+                                <img src="./img/pics/Image-4.png" alt="">
+                            </a>
+                        </div>
+                            <div class="community-users-profile-info">
+                                <a href="">
+                                    <h5>@mzi_34d</h5>
+                            <p>19 July at 12:30am</p>
+                                </a>
+                            </div>
                     </div>
                     <div class="community-users-txt">
                         <p>
@@ -279,34 +332,42 @@
                     <div class="community-icons-info">
                         <a href="">
                             <img src="./img/icons/favorite.png" alt="">
-                        <p>9284</p>
+                        <p>95</p>
                         </a>
                     </div>
                     <div class="community-icons-info">
                         <a href="">
                             <img src="./img/icons/chat_bubble.png" alt="">
-                        <p>342</p>
+                        <p>13</p>
                         </a>
                     </div>
                     <div class="community-icons-info">
                         <a href="">
                             <img src="./img/icons/share.png" alt="">
-                        <p>996</p>
+                        <p>23</p>
                         </a>
                     </div>
                     <div class="community-icons-info">
                         <a href="">
                             <img src="./img/icons/bookmarks.png" alt="">
-                        <p>787</p>
+                        <p>87</p>
                         </a>
                     </div>
                 </div>
 
                 <div class="community-users">
-                    <div class="community-users-pic">
-                        <a href="">
-                            <img src="./img/pics/Image-71.png" alt="">
-                        </a>
+                    <div class="community-users-profile">
+                        <div class="community-users-profile-pic">
+                            <a href="">
+                                <img src="./img/pics/Image-5.png" alt="">
+                            </a>
+                        </div>
+                            <div class="community-users-profile-info">
+                                <a href="">
+                                    <h5>@messy_lionel</h5>
+                            <p>20 July at 1:30pm</p>
+                                </a>
+                            </div>
                     </div>
                     <div class="community-users-txt">
                         <p>
@@ -319,34 +380,42 @@
                     <div class="community-icons-info">
                         <a href="">
                             <img src="./img/icons/favorite.png" alt="">
-                        <p>283</p>
+                        <p>34</p>
                         </a>
                     </div>
                     <div class="community-icons-info">
                         <a href="">
                             <img src="./img/icons/chat_bubble.png" alt="">
-                        <p>241</p>
+                        <p>12</p>
                         </a>
                     </div>
                     <div class="community-icons-info">
                         <a href="">
                             <img src="./img/icons/share.png" alt="">
-                        <p>532</p>
+                        <p>87</p>
                         </a>
                     </div>
                     <div class="community-icons-info">
                         <a href="">
                             <img src="./img/icons/bookmarks.png" alt="">
-                        <p>21</p>
+                        <p>45</p>
                         </a>
                     </div>
                 </div>
 
                 <div class="community-users">
-                    <div class="community-users-pic">
-                        <a href="">
-                            <img src="./img/pics/Image-70.png" alt="">
-                        </a>
+                    <div class="community-users-profile">
+                        <div class="community-users-profile-pic">
+                            <a href="">
+                                <img src="./img/pics/Image-6.png" alt="">
+                            </a>
+                        </div>
+                            <div class="community-users-profile-info">
+                                <a href="">
+                                    <h5>@likn_dce</h5>
+                            <p>21 July at 2:30pm</p>
+                                </a>
+                            </div>
                     </div>
                     <div class="community-users-txt">
                         <p>
@@ -359,49 +428,53 @@
                     <div class="community-icons-info">
                         <a href="">
                             <img src="./img/icons/favorite.png" alt="">
-                        <p>4042</p>
+                        <p>54</p>
                         </a>
                     </div>
                     <div class="community-icons-info">
                         <a href="">
                             <img src="./img/icons/chat_bubble.png" alt="">
-                        <p>32</p>
+                        <p>12</p>
                         </a>
                     </div>
                     <div class="community-icons-info">
                         <a href="">
                             <img src="./img/icons/share.png" alt="">
-                        <p>32</p>
+                        <p>78</p>
                         </a>
                     </div>
                     <div class="community-icons-info">
                         <a href="">
                             <img src="./img/icons/bookmarks.png" alt="">
-                        <p>31</p></a>
+                        <p>24</p>
+                        </a>
                     </div>
                 </div>
 
-            <div class="pages-nav">
-                <a href="">
-                    <div class="previous-page-link-">
-                        <img src="./img/icons/Vector (1).png" alt="">
+                <div class="pages-nav">
+                    <div class="previous-page-link">
+                        <a href="">
+                            <img src="./img/icons/backward-arrow.png" alt="">
+                        </a>
                     </div>
-                </a>
-                <a href="">1</a>
-                <a href="">2</a>
-                <a href="">3</a>
-                <a href="">
+                    <div class="page-link">
+                        <a href="" class="active-page">1</a>
+                        <a href="">2</a>
+                        <a href="">3</a>
+                        <a href="">
+                    </div>
                     <div class="next-page-link">
-                        <img src="./img/icons/Vector 3.png" alt="">
+                        <a href="">
+                            <img src="./img/icons/forward-arrow.png" alt="">
+                        </a>
                     </div>
-                </a>
-            </div>
+                </div>
         </section>
     </main>
 
     <footer>
         <div class="logo-socials">
-            <div class="logo">
+            <div class="footer-logo">
                 <a href="index.html">
                     <img src="./img/pics/Logo.png" alt="">
                 </a>
@@ -444,7 +517,7 @@
             <div class="footer-links">
                 <h3>Blog</h3>
                 <div class="footer-menus">
-                    <a href="community.html">Community</a>
+                    <a href="">Community</a>
                     <a href="">Video</a>
                     <a href="">About Us</a>
                 </div>
@@ -460,5 +533,57 @@
             <a href="">Subscribe</a>
         </div>
     </footer>
+    
+    <div class="footer-hamburger-click">
+        <div class="footer-hamburger-link">
+            <a href="">
+                Policy
+                <img src="./img/icons/forward-arrow.png" alt="">
+            </a>
+        </div>
+        <div class="footer-hamburger-link">
+            <a href="">
+                Category
+                <img src="./img/icons/forward-arrow.png" alt="">
+            </a>
+        </div>
+        <div class="footer-hamburger-link">
+            <a href="">
+                Blog
+                <img src="./img/icons/forward-arrow.png" alt="">
+            </a>
+        </div>
+
+        <div class="subscribe">
+            <p>
+                Subscribe to our newsletter, so that you can be the first to know about new offers and promotions
+            </p>
+    
+            <input type="email" name="" id="" placeholder="Enter Email Address">
+            <a href="">Subscribe</a>
+        </div>
+        <div class="socials">
+            <a href="https://facebook.com/thejustproject">
+                <img src="./img/icons/Facebook.png" alt="">
+            </a>
+            <a href="https://twitter.com/thejustprojects">
+                <img src="./img/icons/Twitter.png" alt="">
+            </a>
+            <a href="https://linkedin.com/company/thejustproject">
+                <img src="./img/icons/linkedin.png" alt="">
+            </a>
+            <a href="https://thejustprojects.com/">
+                <img src="./img/icons/Google.png" alt="">
+            </a>
+        </div>
+
+        <div class="footer-logo">
+            <a href="index.html">
+                <img src="./img/pics/Logo.png" alt="">
+            </a>
+        </div>
+    </div>
+
+    <script src="recipe-community.js"></script>
 </body>
 </html>

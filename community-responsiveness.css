@@ -1,0 +1,194 @@
+@media screen and (max-width: 600px) {
+    body {
+        padding: 3%;
+    }
+
+    .community-hero-img {
+        width: 50%;
+    }
+
+    .community-hero-txt {
+        width: 50%;
+    }
+    .community-hero-txt h1 {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: 0.15%;
+    }
+
+    .community-hero-txt p {
+        font-size: 8px;
+        font-weight: 700;
+        line-height: 14px;
+        letter-spacing: 0em;
+        text-align: justified;
+    }
+
+    .community-members-search {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3%;
+    }
+
+    .community-members-search label {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 1.5%;
+        margin-right: 0;
+    }
+
+    .community-members-search select {
+        width: 20%;
+        padding: 0.5%;
+        border-radius: 2px;
+        margin-right: 0;
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    .community-members-search input {
+        width: 25%;
+        padding: 0.5% 1%;
+        border-radius: 2px;
+    }
+    
+    .community-members-search ::placeholder {
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    .community-members-post {
+        justify-content: center;
+    }
+
+    .community-members-post img {
+        width: 40px;
+        height: 40px;
+        border-radius: 35px;
+        vertical-align: middle;
+    }
+
+    .community-members-post input {
+        width: 60%;
+        height: 10%;
+        padding: 3%;
+        border: 1px solid rgba(238, 154, 9, 1);
+        border-radius: 2px;
+    }
+
+    .community-members-post ::placeholder {
+
+        font-size: 10px;
+        font-weight: 400;
+        letter-spacing: 0.0015em;
+        text-align: left;
+        color: rgba(211, 211, 211, 1)
+    }
+
+    .community-media {
+        justify-content: center;
+        gap: 1%;
+        padding: 1% 17%;
+        margin: 0;
+    }
+
+    .community-media-live-video a, .community-media-photo-video a, .community-media-reaction a {
+        justify-content: center;
+        gap: 4%;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+    }
+
+    .community-media-live-video img, .community-media-photo-video img, .community-media-reaction img {
+        width: 15%;
+    }
+
+    .community-users {
+        flex-direction: column;
+        border: 1px solid rgba(211, 211, 211, 1);
+        box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.25);
+        padding: 2%;
+    }
+
+    .community-users-profile {
+        display: flex;
+        align-items: center;
+        gap: 1%;
+    }
+
+    .community-users-profile-pic {
+        width: 10%;
+        border-radius: 35px;
+    }
+
+    .community-users-profile-info {
+        display: block;
+    }
+
+    .community-users-profile-info h5 {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0.015em;
+        color: rgba(42, 42, 42, 1);
+        margin-bottom: 5%;
+    }
+
+    .community-users-profile-info p {
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        color: rgba(42, 42, 42, 0.7);
+    }
+    
+    .community-users-txt {
+        width: 80%;
+        height: 1%;
+        border: none;
+        padding: none;
+    }
+    
+    .community-users-txt p {
+        font-weight: 400;
+        font-size: 12px;
+        Line-height: 16px;
+        color: rgba(42, 42, 42, 0.7);
+        margin: 3% 0;
+    }
+
+    .community-icons-info p {
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: 0.015em;
+        text-align: left;
+        color: rgba(42, 42, 42, 0.3);
+    }
+
+    .next-page-link {
+        border: 1px solid rgba(238, 154, 9, 1);
+        padding: 0% 1%;
+    }
+
+    .next-page-link img, .previous-page-link img {
+        width: 6px;
+    }
+
+    .page-link {
+        /* width: 10%; */
+    }
+
+    .page-link a {
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: 0.015em;
+        color: rgba(42, 42, 42, 1);
+    }
+}

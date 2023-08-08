@@ -1,28 +1,10 @@
 @media screen and (max-width: 600px) {
-    
-    header, .recipe-form-hero, .recipe, .ingredients, .preparation, .tag, .privacy, .upload {
+    body {
+        padding: 3%;
+    }
+
+    .recipe-form-hero, .recipe, .ingredients, .preparation, .tag, .privacy, .upload {
         margin: 1% auto;
-    }
-
-   .logo {
-        width: 20%;
-    }
-
-    .hamburger-close-toggle {
-        width: 15%;
-    }
-
-    nav {
-        display: flex;
-        justify-content: flex-end;
-    }
-    
-    .header-menus a, .search-input, .header-btn, footer {
-        display: none;
-    }
-
-    .hamburger-icon {
-        display: block;
     }
 
     .recipe-form-hero h1 {
@@ -121,4 +103,11 @@
     .note p {
         font-size: 18px;
     }
+
+    /* Hamburger Responsive Clicks Start Here*/
+    body.hide {
+        padding-left: 50%;
+        padding-right: 5%;
+    }
+    /* Hamburger Responsive Clicks End Here*/
 }

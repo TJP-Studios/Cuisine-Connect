@@ -7,10 +7,11 @@
 
     <link rel="stylesheet" href="recipe-form-styles.css">
     <link rel="stylesheet" href="recipe-form-responsive-mobile.css">
+    <link rel="stylesheet" href="header-footer-responsiveness.css">
 </head>
 <body>
     <header>
-        <div class="logo">
+        <div class="header-logo">
             <a href="index.html">
                 <img src="./img/pics/Logo.png" alt="cuisine-connect-logo">
             </a>
@@ -25,7 +26,7 @@
                 <a href="">Blog</a>
             </div>
 
-            <div class="hamburger-close-toggle">
+            <div class="nav-icons">
                 <img src="./img/icons/Hamburger-icon.png" alt="Hamburger-icon" class="hamburger-icon">
                 <img src="./img/icons/close-icon.png" alt="close-icon" class="close-icon hide">
             </div>
@@ -39,7 +40,15 @@
         <a href="" class="header-btn">Login</a>
     </header>
 
-    <main>
+    <div class="hamburger-menu">
+        <a href="index.html">Home</a>
+        <a href="recipelist.html">Recipe</a>
+        <a href="community.html">Community</a>
+        <a href="recipe-form.html" class="active">Submit Recipe</a>
+        <a href="">Blog</a>
+    </div>
+
+    <main class="main-toggle">
         <section class="recipe-form-hero">
             <h1>
                 Share Your Recipe With Us!
@@ -202,7 +211,7 @@
 
     <footer>
         <div class="logo-socials">
-            <div class="logo">
+            <div class="footer-logo">
                 <a href="index.html">
                     <img src="./img/pics/Logo.png" alt="">
                 </a>
@@ -261,5 +270,57 @@
             <a href="">Subscribe</a>
         </div>
     </footer>
+    
+    <div class="footer-hamburger-click">
+        <div class="footer-hamburger-link">
+            <a href="">
+                Policy
+                <img src="./img/icons/forward-arrow.png" alt="">
+            </a>
+        </div>
+        <div class="footer-hamburger-link">
+            <a href="">
+                Category
+                <img src="./img/icons/forward-arrow.png" alt="">
+            </a>
+        </div>
+        <div class="footer-hamburger-link">
+            <a href="">
+                Blog
+                <img src="./img/icons/forward-arrow.png" alt="">
+            </a>
+        </div>
+
+        <div class="subscribe">
+            <p>
+                Subscribe to our newsletter, so that you can be the first to know about new offers and promotions
+            </p>
+    
+            <input type="email" name="" id="" placeholder="Enter Email Address">
+            <a href="">Subscribe</a>
+        </div>
+        <div class="socials">
+            <a href="https://facebook.com/thejustproject">
+                <img src="./img/icons/Facebook.png" alt="">
+            </a>
+            <a href="https://twitter.com/thejustprojects">
+                <img src="./img/icons/Twitter.png" alt="">
+            </a>
+            <a href="https://linkedin.com/company/thejustproject">
+                <img src="./img/icons/linkedin.png" alt="">
+            </a>
+            <a href="https://thejustprojects.com/">
+                <img src="./img/icons/Google.png" alt="">
+            </a>
+        </div>
+
+        <div class="footer-logo">
+            <a href="index.html">
+                <img src="./img/pics/Logo.png" alt="">
+            </a>
+        </div>
+    </div>
+
+    <script src="recipe-community.js"></script>
 </body>
 </html>
