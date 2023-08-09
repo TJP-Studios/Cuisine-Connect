@@ -75,7 +75,7 @@ nav a:hover {
 }
 
 .search-input input {
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 500;
     letter-spacing: -0.02em;
     text-align: left;
@@ -86,7 +86,7 @@ nav a:hover {
 }
 
 .header-btn {
-    font-size: 20px;
+    font-size: 14px;
     padding: 12px 20px;
     border-radius: 4px;
     background: #EE9A09;
@@ -122,7 +122,7 @@ nav a:hover {
     }
     
     .header-menus a, .search-input, .header-btn, footer {
-        display: none;
+        display: none !important;
     }
 
     .hamburger-icon {
@@ -200,12 +200,12 @@ nav a:hover {
         margin-bottom: 8%;
     }
 
-    .subscribe {
+    .footer-hamburger-click .subscribe {
         width: 100%;
         margin-bottom: 10%;
     }
 
-    .subscribe input {
+    .footer-hamburger-click .subscribe input {
         /* padding: 2% 0; */
         /* Padding: 4%;*/
         border-radius: 4px 0 0 4px;
@@ -215,7 +215,7 @@ nav a:hover {
         vertical-align: middle;
     }
     
-    .subscribe ::placeholder {
+    .footer-hamburger-click .subscribe ::placeholder {
         font-size: 10px;
         font-weight: 500;
         letter-spacing: -0.02em;
@@ -224,7 +224,7 @@ nav a:hover {
         vertical-align: middle;
     }
     
-    .subscribe a {
+    .footer-hamburger-click .subscribe a {
         padding: 2% 5%;
         border-radius: 0 4px 4px 0;
         border: none;
@@ -240,18 +240,18 @@ nav a:hover {
         border: 1px solid #2A2A2A;
     }
     
-    .subscribe a:hover {
+    .footer-hamburger-click .subscribe a:hover {
         color: #2A2A2A;
         background-color: #FFFFFF;
         border: 1px solid #2A2A2A;
     }
 
-    .socials {
+    .footer-hamburger-click .socials {
         width: 30%;
         margin-bottom: 5%;
     }
 
-    .footer-logo {
+    .footer-hamburger-click .footer-logo {
         width: 30%;
         margin-bottom: 10%;
     }

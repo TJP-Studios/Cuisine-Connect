@@ -171,24 +171,56 @@
         color: rgba(42, 42, 42, 0.3);
     }
 
-    .next-page-link {
-        border: 1px solid rgba(238, 154, 9, 1);
-        padding: 0% 1%;
+    .pages-nav {
+        gap: 1%;
+        width: 40%;
+        margin: 5% auto 2% auto;
     }
 
     .next-page-link img, .previous-page-link img {
-        width: 6px;
+        width: 3px;
     }
+    
+    .next-page-link {
+        border: 1px solid rgba(238, 154, 9, 1);
+        padding: 0.5% 1%;
+        width: 16px;
+        height: 16px;
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
 
+    }
+    
+    .active-page {
+        color: rgba(238, 154, 9, 1);
+    }    
+    
+    .next-page-link img, .previous-page-link img {
+        width: 10px;
+        vertical-align: middle;
+    }
+    
     .page-link {
-        /* width: 10%; */
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15%;
     }
 
     .page-link a {
-        font-size: 12px;
+        font-size: 18px;
         font-weight: 700;
         line-height: 16px;
         letter-spacing: 0.015em;
         color: rgba(42, 42, 42, 1);
     }
+
+    /* Hamburger Responsive Clicks Start Here*/
+    body.hide {
+        padding-left: 50%;
+        padding-right: 5%;
+    }
+    /* Hamburger Responsive Clicks End Here*/
 }

@@ -68,7 +68,6 @@
     .radio-allow-recipe, .radio-keep-recipe {
         display: block;
         width: 100%;
-        /* margin: 0 1%; */
     }
 
     .radio-allow-recipe label, .radio-keep-recipe label {
