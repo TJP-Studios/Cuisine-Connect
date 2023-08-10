@@ -2,7 +2,7 @@
 header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     margin: 1% auto;
     width: 95%;
 }
@@ -13,7 +13,8 @@ header {
 }
 
 nav {
-    width: 50%;
+    width: 40%;
+    margin: 0 3% 0 20%;
 }
 
 nav .header-menus {
@@ -31,7 +32,7 @@ nav .header-menus {
 }
 
 nav a {
-font-size: 20px;
+font-size: 18px;
 font-weight: 500;
 line-height: 28px;
 letter-spacing: 0.0015em;
@@ -66,6 +67,7 @@ nav a:hover {
     padding: 1%;
     border: 1px solid #EE9A09CC;
     border-radius: 4px;
+    margin-right: 1%;
 }
 
 .search-input img {
@@ -75,14 +77,16 @@ nav a:hover {
 }
 
 .search-input input {
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: -0.02em;
-    text-align: left;
-    color: rgba(42, 42, 42, 1);
     border: none;
     outline: 0;
     width: 80%;
+}
+
+.search-input ::placeholder {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    color: rgba(42, 42, 42, 1);
 }
 
 .header-btn {
@@ -106,6 +110,7 @@ nav a:hover {
 @media screen and (max-width: 600px) {
     header {
         margin: 1% auto;
+        justify-content: space-between;
     }
    
     .header-logo {
@@ -147,7 +152,7 @@ nav a:hover {
         margin-bottom: 10%;
         border-bottom: 1px solid rgba(42, 42, 42, 0.5);
         padding-bottom: 2%;
-        width: 55%;
+        width: 42%;
     }
 
     .close-icon {
@@ -155,6 +160,10 @@ nav a:hover {
         margin-left: 700%;
         margin-top: 25%;
         width: 150%;
+    }
+
+    body.hide {
+        margin-left: 50%;
     }
     
     .close-icon.hide, .main-toggle.hide {
@@ -206,12 +215,9 @@ nav a:hover {
     }
 
     .footer-hamburger-click .subscribe input {
-        /* padding: 2% 0; */
-        /* Padding: 4%;*/
+        padding: 2.5% 1%;
         border-radius: 4px 0 0 4px;
         border: 1px solid #2A2A2A;
-        width: 53%;
-        height: 3%;
         vertical-align: middle;
     }
     
@@ -225,7 +231,7 @@ nav a:hover {
     }
     
     .footer-hamburger-click .subscribe a {
-        padding: 2% 5%;
+        padding: 2.8% 3%;
         border-radius: 0 4px 4px 0;
         border: none;
         color: #FFFFFF;
@@ -233,11 +239,10 @@ nav a:hover {
         font-size: 12px;
         font-weight: 500;
         letter-spacing: -0.02em;
+        text-align: center;
         margin-left: -2%;
         vertical-align: middle;
         transition: 0.2s ease;
-        margin-bottom: 5%;
-        border: 1px solid #2A2A2A;
     }
     
     .footer-hamburger-click .subscribe a:hover {
@@ -265,7 +270,7 @@ footer {
     display: flex;
     justify-content: space-between;
     background: #D3D3D3;
-    padding: 3% 5%;
+    padding: 3%;
 }
 
 .logo-socials {
@@ -274,7 +279,7 @@ footer {
 
 .footer-logo {
     width: 45%;
-    margin-bottom: 10%;
+    margin-bottom: 7%;
 }
 
 .socials {
@@ -285,28 +290,29 @@ footer {
 
 .footer-nav {
     display: flex;
-    width: 85%;
+    width: 80%;
 }
 .footer-links {
     width: 40%;
 }
 
 .footer-links h3 {
-    font-size: 28px;
+    font-size: 20px;
     font-weight: 700;
     letter-spacing: 0.0025em;
     text-align: left;
     color: rgba(42, 42, 42, 1);
     margin-bottom: 10%;
+    text-transform: uppercase;
 }
 
 .footer-links a {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     letter-spacing: 0.0015em;
     text-align: left;
     color: rgba(42, 42, 42, 1);
-    margin-bottom: 6%;
+    margin-bottom: 8%;
 }
 
 .footer-menus {
@@ -321,21 +327,22 @@ footer {
 .subscribe p {
     font-size: 18px;
     font-weight: 500;
-    line-height: 28px;
+    line-height: 24px;
     letter-spacing: 0.0015em;
     text-align: justify;
     color: rgba(42, 42, 42, 1);
-    margin-bottom: 7%;
+    margin-bottom: 6%;
 }
 
 .subscribe input {
-    padding: 2% 5%;
+    padding: 2.5% 1%;
     border-radius: 4px 0 0 4px;
     border: 1px solid #2A2A2A;
+    vertical-align: middle;
 }
 
 .subscribe ::placeholder {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 500;
     letter-spacing: -0.02em;
     text-align: center;
@@ -344,16 +351,16 @@ footer {
 }
 
 .subscribe a {
-    padding: 1.5% 5%;
+    padding: 2.5% 3%;
     border-radius: 0 4px 4px 0;
     border: none;
     color: #FFFFFF;
     background-color: #2A2A2A;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 500;
     letter-spacing: -0.02em;
     text-align: center;
-    margin-left: -3%;
+    margin-left: -1%;
     vertical-align: middle;
     transition: 0.2s ease;
 }

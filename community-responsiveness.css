@@ -8,21 +8,22 @@
     }
 
     .community-hero-txt {
-        width: 50%;
+        width: 70%;
     }
     .community-hero-txt h1 {
-        font-size: 20px;
+        font-size: 24px;
         font-weight: 700;
         line-height: 28px;
         letter-spacing: 0.15%;
     }
 
     .community-hero-txt p {
-        font-size: 8px;
-        font-weight: 700;
+        font-size: 14px;
+        font-weight: 500;
         line-height: 14px;
         letter-spacing: 0em;
-        text-align: justified;
+        text-align: justify;
+        margin-top: 2%;
     }
 
     .community-members-search {
@@ -30,10 +31,11 @@
         justify-content: center;
         align-items: center;
         gap: 3%;
+        box-shadow: none;
     }
 
     .community-members-search label {
-        font-size: 14px;
+        font-size: 12px;
         font-weight: 400;
         line-height: 16px;
         letter-spacing: 1.5%;
@@ -62,18 +64,20 @@
 
     .community-members-post {
         justify-content: center;
+        gap: 4%;
+        margin-top: 2%;
     }
 
     .community-members-post img {
-        width: 40px;
-        height: 40px;
-        border-radius: 35px;
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
         vertical-align: middle;
     }
 
     .community-members-post input {
-        width: 60%;
-        height: 10%;
+        width: 55%;
+        height: 30px;
         padding: 3%;
         border: 1px solid rgba(238, 154, 9, 1);
         border-radius: 2px;
@@ -90,14 +94,15 @@
 
     .community-media {
         justify-content: center;
-        gap: 1%;
-        padding: 1% 17%;
-        margin: 0;
+        /* gap: 1%; */
+        /* padding: 1% 17%; */
+        margin: 2% 5% 2% 0;
+        width: 50%;
     }
 
     .community-media-live-video a, .community-media-photo-video a, .community-media-reaction a {
         justify-content: center;
-        gap: 4%;
+        gap: 6%;
         font-size: 10px;
         font-weight: 400;
         line-height: 16px;
@@ -110,15 +115,16 @@
 
     .community-users {
         flex-direction: column;
+        justify-content: start;
         border: 1px solid rgba(211, 211, 211, 1);
         box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.25);
-        padding: 2%;
+        padding: 1%;
     }
 
     .community-users-profile {
         display: flex;
         align-items: center;
-        gap: 1%;
+        gap: 3%;
     }
 
     .community-users-profile-pic {
@@ -162,8 +168,12 @@
         margin: 3% 0;
     }
 
+    .community-icons {
+        width: 83%;
+    }
+
     .community-icons-info p {
-        font-size: 12px;
+        font-size: 10px;
         font-weight: 700;
         line-height: 16px;
         letter-spacing: 0.015em;
@@ -171,56 +181,43 @@
         color: rgba(42, 42, 42, 0.3);
     }
 
+    .community-icons-info img {
+        width: 20%;
+    }
+
     .pages-nav {
-        gap: 1%;
-        width: 40%;
-        margin: 5% auto 2% auto;
-    }
-
-    .next-page-link img, .previous-page-link img {
-        width: 3px;
-    }
-    
-    .next-page-link {
-        border: 1px solid rgba(238, 154, 9, 1);
-        padding: 0.5% 1%;
-        width: 16px;
-        height: 16px;
-        display: flex;
-        /* justify-content: center; */
-        align-items: center;
-
-    }
-    
-    .active-page {
-        color: rgba(238, 154, 9, 1);
-    }    
-    
-    .next-page-link img, .previous-page-link img {
-        width: 10px;
-        vertical-align: middle;
-    }
-    
-    .page-link {
-        width: 40%;
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 15%;
+        gap: 25%;
+        margin: 6% 0 3% 0;
     }
-
-    .page-link a {
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 16px;
-        letter-spacing: 0.015em;
+    
+    .pages-nav .link-page {
+        width: 4%;
+    }
+    
+    .pages-nav .next {
+        width: 10%;
+    }
+    
+    .pages-nav .page-num {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 90%;
+    }
+    
+    .page-num a {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
         color: rgba(42, 42, 42, 1);
     }
-
-    /* Hamburger Responsive Clicks Start Here*/
-    body.hide {
-        padding-left: 50%;
-        padding-right: 5%;
+    
+    .page-num .active-page {
+        color: rgba(238, 154, 9, 1);
     }
     /* Hamburger Responsive Clicks End Here*/
 }
