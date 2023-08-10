@@ -1,8 +1,4 @@
 @media screen and (max-width: 600px) {
-    body {
-        /* padding: 3%; */
-    }
-
     .recipe-form-hero, .recipe, .ingredients, .preparation, .tags, .privacy, .upload {
         margin: 1% 5%;
     }
@@ -131,12 +127,6 @@
 
     .note p {
         font-size: 10px;
-    }
-
-    /* Hamburger Responsive Clicks Start Here*/
-    body.hide {
-        padding-left: 50%;
-        padding-right: 5%;
     }
     /* Hamburger Responsive Clicks End Here*/
 }
