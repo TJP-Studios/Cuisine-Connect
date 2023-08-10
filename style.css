@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Lato:wght@700&display=swap')
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -153,9 +153,6 @@ div > .chef{
     font-family: 'Lato', sans-serif;
 }
 
-.top_recipes_img {
-
-}
 
 .food_img {
   width: 31%;
@@ -193,7 +190,6 @@ div > .chef{
   margin: 0 3% 0 5%;
 }                
 
-
 .new_recipes_text{
   display: flex;
   margin-bottom: -2%;
@@ -211,11 +207,26 @@ div > .chef{
   color: #EE9A09;
   ;
 }
+.new_recipe_img {
+  display: flex;
+  box-sizing: border-box;
+}
+.new_recipe_img > div {
+  width: 40%;
+}
+.new_food_img {
+  width: 90%;
+}
+.new_mid {
+  margin: 0 3%;
+}
 
-
+.star_img {
+  width: 25%;
+}
                /* Testimonials */
 .testimonials{
-  margin: 0 3% 0 5%;
+  margin: 2% 3% 0 5%;
   display: flex;
 }
 
@@ -224,17 +235,37 @@ div > .chef{
   margin: 3% 3% 0 5%;
 }
 
+.jimmy, .evelyn, .blessing {
+  width: 40%;
+  box-shadow: 5px;
+}
+
 .flext {
   display: flex;
+}
+
+.jimmy_about, .evelyn_about, .blessing_about {
+  margin-left: 3%;
+  margin-top: -3%;
+}
+
+.testimony_text {
+  width: 
+  80%;
+}
+
+.jimmy_about > p,
+.evelyn_about > p,
+.blessing_about > p {
+  margin-top: -8%;
 }
 
 
 
                         /* Download Section */
 .download {
-  margin: 3% 3% 0 5%;
+  margin: 3% 3% 2% 5%;
   display: flex;
-  border: 1px solid purple;
 }
 
 .downlod_text{

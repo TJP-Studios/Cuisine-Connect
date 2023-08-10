@@ -8,34 +8,34 @@
 </head>
 <body>
 
-                <!-- Header -->
-                <header>
-                  <div class="logo">
-                      <img src="./img/pics/Logo.png" alt="cuisine-connect-logo">
-                  </div>
+  <!-- Header -->
+<header>
+    <div class="logo">
+        <img src="./img/pics/Logo.png" alt="cuisine-connect-logo">
+    </div>
           
-                  <nav>
-                      <div class="header-menus">
-                          <a href="index.html" class="active">Home</a>
-                          <a href="">Recipe</a>
-                          <a href="community.html">Community</a>
-                          <a href="recipe-form.html">Submit Recipe</a>
-                          <a href="">Blog</a>
-                      </div>
+    <nav>
+        <div class="header-menus">
+            <a href="index.html" class="active">Home</a>
+            <a href="recipelist.html">Recipe</a>
+            <a href="community.html">Community</a>
+            <a href="recipe-form.html">Submit Recipe</a>
+            <a href="">Blog</a>
+        </div>
           
-                      <div class="hamburger-close-toggle">
-                          <img src="./img/icons/Hamburger-icon.png" alt="Hamburger-icon" class="hamburger-icon">
-                          <img src="./img/icons/close-icon.png" alt="close-icon" class="close-icon hide">
-                      </div>
-                  </nav>
+        <div class="hamburger-close-toggle">
+            <img src="./img/icons/Hamburger-icon.png" alt="Hamburger-icon" class="hamburger-icon">
+            <img src="./img/icons/close-icon.png" alt="close-icon" class="close-icon hide">
+        </div>
+    </nav>
           
-                  <div class="search-input">
-                      <img src="./img/icons/Search-icon.png" alt="search-icon">
-                      <input type="search" name="search" id="search" placeholder="Search For Recipe">
-                  </div>
+    <div class="search-input">
+        <img src="./img/icons/Search-icon.png" alt="search-icon">
+        <input type="search" name="search" id="search" placeholder="Search For Recipe">
+    </div>
           
-                  <button>Login</button>
-              </header>              
+    <button>Login</button>
+</header>              
                   <!-- Discover Section -->
   <div class="discover">
 
@@ -66,36 +66,70 @@
 
                       <!-- Your Recipes Section -->
   <div class="your_recipes">
+
     <div class="your_recipes_text">
       <h3>Your Recipes</h3>
       <p>See all</p>
     </div>
-
-    <div class="your_recipes_img">
-      <img class="food_img" src="Images/Frame 2 1.png" alt="">
-      <!-- <p>West African Beef Kabobs (Suya)</p> -->
-
-      <img class="food_img mid" src="Images/Frame 2 2.png" alt="">
-      <!-- <p>West African Peanut Stew</p> -->
-
-      <img class="food_img" src="Images/Frame 2 3.png" alt="">
-      <!-- <p>Nigerian Jollof Rice</p> -->
-    </div>
+  
+      <div class="new_recipe_img">
+        <div>
+          <img class="new_food_img" src="Images/Frame 2 1.png" alt="">
+            <p>West African Beef Kabobs (Suya)</p>
+            <img class="star_img" src="./images/5 Star rating.png" alt="">
+            <p>1k Ratings</p>
+        </div>
+        <div>
+          <img class="new_food_img new_mid" src="Images/Frame 2 2.png" alt="">
+            <p>West African Peanut Stew</p>
+            <img class="star_img" src="./images/5 Star rating.png" alt="">
+            <p>1k Ratings</p>
+        </div>
+        <div>
+          <img class="new_food_img" src="Images/Frame 2 3.png" alt="">
+            <p>Nigerian Jollof Rice</p>
+            <img class="star_img" src="./images/2 Star rating.png" alt="">
+            <p>987 Ratings</p>
+        </div>
+      </div>
+     
   </div>
+  
+
 
                       <!-- New Recipes Section -->
-  <div class="new_recipes">
-    <div class="new_recipes_text">
-      <h3>New Recipes</h3>
-      <p>See all</p>
-    </div>
+<div class="new_recipes">
 
-    <div class="new_recipes_img">
-      <img class="food_img" src="Images/Frame 3 1.png" alt="">
-      <img class="food_img mid" src="Images/Frame 3 2.png" alt="">
-      <img class="food_img" src="Images/Frame 3 3.png" alt="">
-    </div>
+  <div class="new_recipes_text">
+    <h3>New Recipes</h3>
+    <p>See all</p>
   </div>
+
+    <div class="new_recipe_img">
+      <div>
+        <img class="new_food_img" src="Images/Frame 3 1.png" alt="">
+          <p>West African Chicken Mafe</p>
+          <img class="star_img" src="./images/5 Star rating.png" alt="">
+          <p>500 Ratings</p>
+      </div>
+      <div>
+        <img class="new_food_img new_mid" src="Images/Frame 3 2.png" alt="">
+          <p>Tortilla de Patatas Spanish Potato</p>
+          <img class="star_img" src="./images/5 Star rating.png" alt="">
+          <p>1k Ratings</p>
+      </div>
+      <div>
+        <img class="new_food_img" src="Images/Frame 3 3.png" alt="">
+          <p>Overnight Oats 5 Ways</p>
+          <img class="star_img" src="./images/2 Star rating.png" alt="">
+          <p>987 Ratings</p>
+      </div>
+    </div>
+   
+</div>
+
+
+
 
                       <!-- Testimonials Section -->
   
@@ -112,7 +146,7 @@
       </div>
 
       <div>
-        <p>I have been using this recipe sharing platform for a few months now, and i’m absolutely in love with it! The variety of recipes available is incredible, ranging from simple everyday meals to exotic dishes from around the world.</p>
+        <p class="testimony_text">I have been using this recipe sharing platform for a few months now, and i’m absolutely in love with it! The variety of recipes available is incredible, ranging from simple everyday meals to exotic dishes from around the world.</p>
       </div>
     </div>
 
@@ -127,7 +161,7 @@
       </div>
 
       <div>
-        <p>As a busy working mom, this recipe sharing platform has been a lifesaver for me! I used to struggle to come up with new meal ideas for my family, but since i discovered this website, meal planning has become a breeze.</p>
+        <p class="testimony_text">As a busy working mom, this recipe sharing platform has been a lifesaver for me! I used to struggle to come up with new meal ideas for my family, but since i discovered this website, meal planning has become a breeze.</p>
       </div>
     </div>
 
@@ -142,7 +176,7 @@
       </div>
 
       <div>
-        <p>I am not a confident cook, but this recipe sharing platform has given me the courage to experiment in the kitchen. The recipes are so well-explained with helpful tips and tricks that even someone with limited cooking skills can succeed.</p>
+        <p class="testimony_text">I am not a confident cook, but this recipe sharing platform has given me the courage to experiment in the kitchen. The recipes are so well-explained with helpful tips and tricks that even someone with limited cooking skills can succeed.</p>
       </div>
     </div>
 
