@@ -395,3 +395,35 @@ text-align: center;
 margin-left: -1%;
 }
 /*Footer Ends Here*/
+
+
+
+
+
+                      /* Media Queries */
+
+@media  screen and (max-width:748px) {
+.bar {
+display: flex;
+}
+}
+
+
+@media screen and (min-width: 461px) and (max-width: 960px)  {
+  .discover, 
+  .testimonials, 
+  .download,
+  .tes_h3 {
+    display: none;
+      }
+}
+
+
+  @media  screen and (max-width:460px) {
+    .discover, 
+    .testimonials, 
+    .download,
+    .tes_h3 {
+      display: none;
+        }
+    }
