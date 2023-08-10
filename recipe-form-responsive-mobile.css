@@ -71,7 +71,7 @@
         align-items: flex-start;
     }
 
-    .ingredients-container p, {
+    .ingredients-container p {
         margin-top: 2%;
     }
 
@@ -128,5 +128,4 @@
     .note p {
         font-size: 10px;
     }
-    /* Hamburger Responsive Clicks End Here*/
 }
