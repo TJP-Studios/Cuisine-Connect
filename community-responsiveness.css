@@ -1,17 +1,6 @@
 @media screen and (max-width: 600px) {
-    body {
-        padding: 3%;
-    }
-
-    .community-hero-img {
-        width: 50%;
-    }
-
-    .community-hero-txt {
-        width: 70%;
-    }
     .community-hero-txt h1 {
-        font-size: 24px;
+        font-size: 20px;
         font-weight: 700;
         line-height: 28px;
         letter-spacing: 0.15%;
@@ -22,7 +11,6 @@
         font-weight: 500;
         line-height: 14px;
         letter-spacing: 0em;
-        text-align: justify;
         margin-top: 2%;
     }
 
@@ -35,16 +23,15 @@
     }
 
     .community-members-search label {
-        font-size: 12px;
+        font-size: 10px;
         font-weight: 400;
-        line-height: 16px;
         letter-spacing: 1.5%;
         margin-right: 0;
     }
 
     .community-members-search select {
         width: 20%;
-        padding: 0.5%;
+        padding: 0.1% 0.5%;
         border-radius: 2px;
         margin-right: 0;
         font-size: 10px;
@@ -58,7 +45,7 @@
     }
     
     .community-members-search ::placeholder {
-        font-size: 10px;
+        font-size: 8px;
         font-weight: 400;
     }
 
@@ -66,6 +53,7 @@
         justify-content: center;
         gap: 4%;
         margin-top: 2%;
+        width: 100%;
     }
 
     .community-members-post img {
@@ -84,7 +72,6 @@
     }
 
     .community-members-post ::placeholder {
-
         font-size: 10px;
         font-weight: 400;
         letter-spacing: 0.0015em;
@@ -94,10 +81,8 @@
 
     .community-media {
         justify-content: center;
-        /* gap: 1%; */
-        /* padding: 1% 17%; */
         margin: 2% 5% 2% 0;
-        width: 50%;
+        width: 65%;
     }
 
     .community-media-live-video a, .community-media-photo-video a, .community-media-reaction a {
@@ -154,7 +139,7 @@
     }
     
     .community-users-txt {
-        width: 80%;
+        width: 100%;
         height: 1%;
         border: none;
         padding: none;
@@ -177,7 +162,6 @@
         font-weight: 700;
         line-height: 16px;
         letter-spacing: 0.015em;
-        text-align: left;
         color: rgba(42, 42, 42, 0.3);
     }
 

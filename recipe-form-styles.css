@@ -20,9 +20,12 @@ a {
 }
 
 
-.recipe-form-hero, .recipe, .ingredients, .preparation, .tag, .privacy, .upload {
-    margin: 1% auto;
-    width: 95%;
+.recipe-form-hero, .recipe, .ingredients, .preparation, .tags, .privacy, .upload {
+    margin: 1% 5%;
+}
+
+.description {
+    margin: 1% 0;
 }
 
 .recipe-form-hero h1 {
@@ -43,6 +46,13 @@ a {
     color: rgba(42, 42, 42, 1);
 }
 
+.recipe-containers {
+    display: flex;
+    align-items: center;
+    gap: 11%;
+    margin: 1% 0;
+}
+
 form h3 {
     background: rgba(238, 154, 9, 0.3);
     font-size: 22px;
@@ -51,7 +61,7 @@ form h3 {
     letter-spacing: 0.0025em;
     text-align: left;
     color: rgba(42, 42, 42, 1);
-    padding: 1% 5%;
+    padding: 0.5% 3%;
     margin: 0.5% 0;
 }
 
@@ -83,43 +93,28 @@ form input, form select {
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 0.0015em;
-    text-align: left;
-
 }
 
-.recipe-title, .recipe-link {
-    display: inline-block;
-    margin: 1% 10% 2% 0;
+.qty-unit-ingredients-btn {
+    display: flex;
+    align-items: center;
+    gap: 27%;
 }
 
-.category, .servings, .difficulty, .prep-time, .cook-time, .qty, .unit, .your-ingredients, .tags {
-    display: inline-block;
+.qty-unit-ingredients {
+    display: flex;
+    align-items: center;
+    gap: 6.5%;
+    margin: 1% 0;
 }
 
-.qty, .unit {
-    margin: 2% 2.5% 2% 0;
-    vertical-align: middle;
-}
-
-.your-ingredients, .tags {
-    margin: 2% 1% 2% 0;
-    vertical-align: middle;
-}
-
-.category, .servings, .prep-time, .cook-time {
-    margin-right: 9%;
-}
-
-.description, .category, .servings, .difficulty, .prep-time, .cook-time {
-    margin-bottom: 2%;
+.your-ingredients input {
+    width: 480%;
 }
 
 textarea {
     width: 100%;
     outline: 0;
-}
-.prep-instruction {
-    margin: 2% 0;
 }
 
 form p {
@@ -127,63 +122,69 @@ form p {
     font-weight: 500;
     letter-spacing: 0em;
     text-align: left;
-    display: inline-block;
     vertical-align: middle;
     margin: 1% 0;
     color: rgba(42, 42, 42, 1);
 }
 
+.ingredients-container {
+    display: flex;
+    align-items: center;
+    gap: 2%;
+}
+
+.radio-us-metric {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    width: 40%;
+}
+
 .radio-us, .radio-metric {
-    display: inline-block;
-    margin: 0 1%;
-    width: 10%;
-}
-
-.radio-metric {
-    margin-right: 20%;
-}
-
-.radio-us label, .radio-metric label {
-    display: inline-block;
-    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    width: 20%;
+    gap: 5%;
 }
 
 .radio-us input, .radio-metric input {
     width: 20%;
-    vertical-align: middle;
-    border: 1px solid #EE9A09;
 }
 
-.your-ingredients input, .tags input {
-    width: 420px;
+.tags input {
+    width: 250%;
 }
 
-.radio-allow-recipe {
-        display: inline;
-        margin-right: 5%;
+.tag {
+    display: flex;
+    align-items: center;
+    gap: 18%;
 }
 
-.radio-keep-recipe {
-    display: inline;
+.privacy {
+    display: flex;
+    align-items: center;
+    width: 90%;
 }
 
-.radio-allow-recipe label, .radio-keep-recipe label {
-    display: inline;
-    vertical-align: middle;
+.radio-allow-recipe, .radio-keep-recipe {
+    display: flex;
+    align-items: center;
+    gap: 1%;
+    width: 100%;
 }
+
 .radio-allow-recipe input, .radio-keep-recipe input {
-    vertical-align: middle;
-    width: 2%;
-    border: 1.5px solid rgba(238, 154, 9, 1);
+    width: 3.5%;
 }
 
 .form-btn {
     padding: 8px 15px;
     border-radius: 4px;
     border: none;
-    background: #EE9A09;
+    background: rgba(238, 154, 9, 1);
     color: #FFFFFF;
-    font-size: 22px;
+    font-size: 20px;
     vertical-align: middle;
 }
 
@@ -201,7 +202,7 @@ form p {
     margin: 0 auto;
 }
 .recipe-upload p, .recipe-upload a {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 40px;
     letter-spacing: 0em;
@@ -211,19 +212,31 @@ form p {
 
 .recipe-form-btn-container {
     text-align: center;
+    margin: 3% 0;
+}
+
+.recipe-form-btn-container .form-btn {
+    padding: 0.5% 2%;
+    border-radius: 4px;
+    border: none;
+    background: rgba(238, 154, 9, 1);
+    color: #FFFFFF;
+    font-size: 20px;
+    vertical-align: middle;
+    text-transform: uppercase;
 }
 
 .note {
     background: #D3D3D3;
-    padding: 3% 5%;
+    padding: 2% 5%;
 }
 
 .note {
-    margin-bottom: 2%;
+    margin-bottom: 1%;
 }
 
 .note h5 {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 600;
     letter-spacing: 0em;
     text-align: left;
@@ -232,7 +245,7 @@ form p {
 }
 
 .note p {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 500;
     line-height: 40px;
     letter-spacing: 0.015em;
