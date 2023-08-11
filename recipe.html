@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Recipes</title>
+
+    <link rel="stylesheet" href="header-footer.css">
+    <link rel="stylesheet" href="recipe-styles.css">
+    <link rel="stylesheet" href="recipe-responsiveness.css">
+</head>
+<body>
+    <header>
+        <div class="header-logo">
+            <a href="index.html">
+                <img src="./img/pics/Logo.png" alt="cuisine-connect-logo">
+            </a>
+        </div>
+
+        <nav>
+            <div class="header-menus">
+                <a href="index.html">Home</a>
+                <a href="recipe.html" class="active">Recipe</a>
+                <a href="community.html">Community</a>
+                <a href="recipe-form.html">Submit Recipe</a>
+                <a href="">Blog</a>
+            </div>
+
+            <div class="nav-icons">
+                <img src="./img/icons/Hamburger-icon.png" alt="Hamburger-icon" class="hamburger-icon">
+                <img src="./img/icons/close-icon.png" alt="close-icon" class="close-icon hide">
+            </div>
+        </nav>
+
+        <div class="search-input">
+            <img src="./img/icons/Search-icon.png" alt="search-icon">
+            <input type="search" name="search" id="search" placeholder="Search For Recipe">
+        </div>
+
+        <a href="" class="header-btn">Login</a>
+    </header>
+
+    <div class="hamburger-menu">
+        <a href="index.html">Home</a>
+        <a href="recipe.html" class="active">Recipe</a>
+        <a href="community.html">Community</a>
+        <a href="recipe-form.html">Submit Recipe</a>
+        <a href="">Blog</a>
+    </div>
+
+    <main class="main-toggle">
+        <section class="recipe-hero-section">
+            <div class="recipe-hero">
+                <div class="recipe-hero-img">
+                    <img src="./Images/Hero image.png" alt="">
+                </div>
+                <div class="recipe-hero-txt">
+                    <h1>
+                        Indulge your senses with a tantalizing array of our mouthwathering recipes - take your time and savor every delightful moment!
+                    </h1>
+                </div>
+            </div>
+        </section>
+
+        <section class="recipe-meal-select-section">
+            <div class="recipe-meal-select">
+                <select name="meal" id="meal">
+                    <option value="meal">Cuisine</option>
+                </select>
+                <select name="meal" id="meal">
+                    <option value="meal">Dietary</option>
+                </select>
+                <select name="meal" id="meal">
+                    <option value="meal">Popularity</option>
+                </select>
+                <select name="meal" id="meal">
+                    <option value="meal">Ingredient</option>
+                </select>
+                <select name="meal" id="meal">
+                    <option value="meal">Dish</option>
+                </select>
+            </div>
+        </section>
+
+        <section class="recipe-meal-section">
+            <div class="recipe-meal">
+                <div class="recipe-meal-info">
+                    <img src="./frame-images/Frame 1.png" alt="">
+                    <h5>
+                        West African Beef Kabobs (Suya)
+                    </h5>
+                    <div class="ratings">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <p>2.5k Ratings</p>
+                    </div>
+                </div>
+
+                <div class="recipe-meal-info">
+                    <img src="./frame-images/Frame 1a.png" alt="">
+                    <h5>
+                        Creamy Tusan Shrimp and Scallops
+                    </h5>
+                    <div class="ratings">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 5.png" alt="">
+                        <p>2k Ratings</p>
+                    </div>
+                </div>
+
+                <div class="recipe-meal-info">
+                    <img src="./frame-images/Frame 1b.png" alt="">
+                    <h5>
+                        Three-Bean Weight Watchers Chili
+                    </h5>
+                    <div class="ratings">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 5.png" alt="">
+                        <img src="./img/icons/Star 5.png" alt="">
+                        <p>1.5k Ratings</p>
+                    </div>
+                </div>
+
+                <div class="recipe-meal-info last">
+                    <img src="./frame-images/Frame 1c.png" alt="">
+                    <h5>
+                        Instant Pot Lasagna
+                    </h5>
+                    <div class="ratings">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <p>2.5k Ratings</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="recipe-meal">
+                <div class="recipe-meal-info">
+                    <img src="./frame-images/Frame 2.png" alt="">
+                    <h5>
+                        West African Chicken Mafe
+                    </h5>
+                    <div class="ratings">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <p>2.5k Ratings</p>
+                    </div>
+                </div>
+
+                <div class="recipe-meal-info">
+                    <img src="./frame-images/Frame 2a.png" alt="">
+                    <h5>
+                        Tortilla de Patatas Spanish Potato
+                    </h5>
+                    <div class="ratings">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <p>2.5k Ratings</p>
+                    </div>
+                </div>
+
+                <div class="recipe-meal-info">
+                    <img src="./frame-images/Frame 2b.png" alt="">
+                    <h5>
+                        Overnight Oats 5 Ways
+                    </h5>
+                    <div class="ratings">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 5.png" alt="">
+                        <img src="./img/icons/Star 5.png" alt="">
+                        <img src="./img/icons/Star 5.png" alt="">
+                        <p>1.2k Ratings</p>
+                    </div>
+                </div>
+
+                <div class="recipe-meal-info">
+                    <img src="./frame-images/Frame 2c.png" alt="">
+                    <h5>
+                        Keto Breakfast Egg Bites
+                    </h5>
+                    <div class="ratings">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <p>2.5k Ratings</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="recipe-meal">
+                <div class="recipe-meal-info">
+                    <img src="./frame-images/Frame 3.png" alt="">
+                    <h5>
+                        Favorite Lean Turkey Sloppy Joes
+                    </h5>
+                    <div class="ratings">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 5.png" alt="">
+                        <img src="./img/icons/Star 5.png" alt="">
+                        <img src="./img/icons/Star 5.png" alt="">
+                        <img src="./img/icons/Star 5.png" alt="">
+                        <p>456 Ratings</p>
+                    </div>
+                </div>
+
+                <div class="recipe-meal-info">
+                    <img src="./frame-images/Frame 3a.png" alt="">
+                    <h5>
+                        Nigerian Jollof Rice
+                    </h5>
+                    <div class="ratings">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <p>2.5k Ratings</p>
+                    </div>
+                </div>
+
+                <div class="recipe-meal-info">
+                    <img src="./frame-images/Frame 3b.png" alt="">
+                    <h5>
+                        Nigerian Jollof Rice
+                    </h5>
+                    <div class="ratings">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <p>987 Ratings</p>
+                    </div>
+                </div>
+
+                <div class="recipe-meal-info">
+                    <img src="./frame-images/Frame 3c.png" alt="">
+                    <h5>
+                        West African Peanut Stew
+                    </h5>
+                    <div class="ratings">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <p>2.5k Ratings</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="recipe-meal">
+                <div class="recipe-meal-info">
+                    <img src="./frame-images/Frame 4.png" alt="">
+                    <h5>
+                        Favorite Lean Turkey Sloppy Joes
+                    </h5>
+                    <div class="ratings">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 5.png" alt="">
+                        <img src="./img/icons/Star 5.png" alt="">
+                        <img src="./img/icons/Star 5.png" alt="">
+                        <img src="./img/icons/Star 5.png" alt="">
+                        <p>452 Ratings</p>
+                    </div>
+                </div>
+
+                <div class="recipe-meal-info">
+                    <img src="./frame-images/Frame 4a.png" alt="">
+                    <h5>
+                        Mexican Rice
+                    </h5>
+                    <div class="ratings">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 5.png" alt="">
+                        <p>2k Ratings</p>
+                    </div>
+                </div>
+
+                <div class="recipe-meal-info">
+                    <img src="./frame-images/Frame 4b.png" alt="">
+                    <h5>
+                        Mexican Chicken
+                    </h5>
+                    <div class="ratings">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 5.png" alt="">
+                        <p>2k Ratings</p>
+                    </div>
+                </div>
+
+                <div class="recipe-meal-info">
+                    <img src="./frame-images/Frame 4c.png" alt="">
+                    <h5>
+                        Bang Bang Sauce
+                    </h5>
+                    <div class="ratings">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 5.png" alt="">
+                        <p>2k Ratings</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="recipe-meal">
+                <div class="recipe-meal-info">
+                    <img src="./frame-images/Frame 5.png" alt="">
+                    <h5>
+                        West African Beef Kabobs (Suya)
+                    </h5>
+                    <div class="ratings">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <p>2.5k Ratings</p>
+                    </div>
+                </div>
+
+                <div class="recipe-meal-info">
+                    <img src="./frame-images/Frame 5a.png" alt="">
+                    <h5>
+                        The Best Hamburger Recipe
+                    </h5>
+                    <div class="ratings">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <p>2.5k Ratings</p>
+                    </div>
+                </div>
+
+                <div class="recipe-meal-info">
+                    <img src="./frame-images/Frame 5b.png" alt="">
+                    <h5>
+                        Best Italian Meatball
+                    </h5>
+                    <div class="ratings">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <p>2.5k Ratings</p>
+                    </div>
+                </div>
+
+                <div class="recipe-meal-info">
+                    <img src="./frame-images/Frame 5c.png" alt="">
+                    <h5>
+                        Easy Italian Pasta Salad
+                    </h5>
+                    <div class="ratings">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <p>2.5k Ratings</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="recipe-meal">
+                <div class="recipe-meal-info">
+                    <img src="./frame-images/Frame 6.png" alt="">
+                    <h5>
+                        West African Chicken Mafe
+                    </h5>
+                    <div class="ratings">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <p>2.5k Ratings</p>
+                    </div>
+                </div>
+
+                <div class="recipe-meal-info">
+                    <img src="./frame-images/Frame 6a.png" alt="">
+                    <h5>
+                        Tortilla de Patatas Spanish Potato
+                    </h5>
+                    <div class="ratings">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <p>2.5k Ratings</p>
+                    </div>
+                </div>
+
+                <div class="recipe-meal-info">
+                    <img src="./frame-images/Frame 6b.png" alt="">
+                    <h5>
+                        Overnight Oats 5 Ways
+                    </h5>
+                    <div class="ratings">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 5.png" alt="">
+                        <img src="./img/icons/Star 5.png" alt="">
+                        <img src="./img/icons/Star 5.png" alt="">
+                        <p>1k Ratings</p>
+                    </div>
+                </div>
+
+                <div class="recipe-meal-info">
+                    <img src="./frame-images/Frame 6c.png" alt="">
+                    <h5>
+                        Vanilla Latte Protein Smoothe
+                    </h5>
+                    <div class="ratings">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 1.png" alt="">
+                        <img src="./img/icons/Star 5.png" alt="">
+                        <img src="./img/icons/Star 5.png" alt="">
+                        <p>1.2k Ratings</p>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="pages-nav">
+                <div class="link-page">
+                    <a href="">
+                        <img src="./img/icons/backward-arrow.png" alt="">
+                    </a>
+                </div>
+                <div class="page-num">
+                    <a href="" class="active-page">1</a>
+                    <a href="">2</a>
+                    <a href="">3</a>
+                </div>
+                <div class="link-page next">
+                    <a href="">
+                        <img src="./img/icons/forward-arrow-frame.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+        <footer>
+        <div class="logo-socials">
+            <div class="footer-logo">
+                <a href="index.html">
+                    <img src="./img/pics/Logo.png" alt="">
+                </a>
+            </div>
+            <div class="socials">
+                <a href="https://facebook.com/thejustproject">
+                    <img src="./img/icons/Facebook.png" alt="">
+                </a>
+                <a href="https://twitter.com/thejustprojects">
+                    <img src="./img/icons/Twitter.png" alt="">
+                </a>
+                <a href="https://linkedin.com/company/thejustproject">
+                    <img src="./img/icons/linkedin.png" alt="">
+                </a>
+                <a href="https://thejustprojects.com/">
+                    <img src="./img/icons/Google.png" alt="">
+                </a>
+            </div>
+        </div>
+
+        <div class="footer-nav">
+            <div class="footer-links">
+                <h3>Policy</h3>
+                <div class="footer-menus">
+                    <a href="">Terms of Usage</a>
+                    <a href="">Privacy Policy</a>
+                    <a href="">Return Policy</a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h3>Category</h3>
+                <div class="footer-menus">
+                    <a href="">African Recipes</a>
+                    <a href="">Asian Recipes</a>
+                    <a href="">Italian Recipes</a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h3>Blog</h3>
+                <div class="footer-menus">
+                    <a href="">Community</a>
+                    <a href="">Video</a>
+                    <a href="">About Us</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="subscribe">
+            <p>
+                Subscribe to our newsletter, so that you can be the first to know about new offers and promotions
+            </p>
+
+                <input type="email" name="" id="" placeholder="Enter Email Address">
+            <a href="">Subscribe</a>
+        </div>
+    </footer>
+    
+    <div class="footer-hamburger-click">
+        <div class="footer-hamburger-link">
+            <a href="">
+                Policy
+                <img src="./img/icons/forward-arrow.png" alt="">
+            </a>
+        </div>
+        <div class="footer-hamburger-link">
+            <a href="">
+                Category
+                <img src="./img/icons/forward-arrow.png" alt="">
+            </a>
+        </div>
+        <div class="footer-hamburger-link">
+            <a href="">
+                Blog
+                <img src="./img/icons/forward-arrow.png" alt="">
+            </a>
+        </div>
+
+        <div class="subscribe">
+            <p>
+                Subscribe to our newsletter, so that you can be the first to know about new offers and promotions
+            </p>
+    
+            <input type="email" name="" id="" placeholder="Enter Email Address">
+            <a href="">Subscribe</a>
+        </div>
+        <div class="socials">
+            <a href="https://facebook.com/thejustproject">
+                <img src="./img/icons/Facebook.png" alt="">
+            </a>
+            <a href="https://twitter.com/thejustprojects">
+                <img src="./img/icons/Twitter.png" alt="">
+            </a>
+            <a href="https://linkedin.com/company/thejustproject">
+                <img src="./img/icons/linkedin.png" alt="">
+            </a>
+            <a href="https://thejustprojects.com/">
+                <img src="./img/icons/Google.png" alt="">
+            </a>
+        </div>
+
+        <div class="footer-logo">
+            <a href="index.html">
+                <img src="./img/pics/Logo.png" alt="">
+            </a>
+        </div>
+    </div>
+
+
+    <script src="recipe-community.js"></script>
+</body>
+</html>

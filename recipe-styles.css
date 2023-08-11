@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.recipe-hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+    margin: 1% 5%;
+}
+
+.recipe-hero-img {
+    width: 20%;
+}
+
+.recipe-hero-txt {
+    width: 55%;
+}
+
+.recipe-hero-txt h1 {
+font-size: 34px;
+font-weight: 400;
+line-height: 68px;
+letter-spacing: 0.0025em;
+text-align: justify;
+color: rgba(42, 42, 42, 1);
+}
+
+.recipe-hero-txt p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0.0015em;
+    text-align: justify;
+    color: rgba(42, 42, 42, 1);
+}
+
+.recipe-meal-select-section {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+                linear-gradient(0deg, rgba(43, 43, 43, 0.3), rgba(43, 43, 43, 0.3));
+    padding: 1% 5%;
+}
+
+.recipe-meal-select {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+                linear-gradient(0deg, rgba(43, 43, 43, 0.3), rgba(43, 43, 43, 0.3));
+
+}
+
+.recipe-meal-select select {
+    width: 10%;
+    padding: 0.5%;
+    border-radius: 4px;
+    background: rgba(238, 154, 9, 1);
+    border: none;
+    outline: 0;
+    /* margin-right: 8%; */
+    vertical-align: middle;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.015em;
+    color: rgba(42, 42, 42, 1);
+}
+
+.recipe-meal-section {
+    padding: 3% 5% 1% 5%;
+}
+
+.recipe-meal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.recipe-meal-info {
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+
+.recipe-meal-info h5 {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 4px;
+    letter-spacing: 0.0015em;
+    color: rgba(42, 42, 42, 1);
+    margin: 4% 0;
+}
+
+.ratings {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.ratings img {
+    width: 8%;
+}
+
+.ratings p {
+    font-size: 17px;
+    font-weight: 500;
+    /* line-height: 4px; */
+    letter-spacing: 0.0015em;
+    text-align: center;
+    color: rgba(42, 42, 42, 1);
+    margin-left: 4%;
+}
+
+.pages-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30%;
+    margin: 6% 0 3% 0;
+}
+
+.pages-nav .link-page {
+    width: 5%;
+}
+
+.pages-nav .next {
+    width: 13%;
+}
+
+.pages-nav .page-num {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90%;
+}
+
+.page-num a {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: rgba(42, 42, 42, 1);
+}
+
+.page-num .active-page {
+    color: rgba(238, 154, 9, 1);
+}
