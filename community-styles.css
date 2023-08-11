@@ -39,7 +39,7 @@ a {
     font-weight: 700;
     line-height: 68px;
     letter-spacing: 0.0025em;
-    text-align: left;
+    text-align: justify;
     color: rgba(42, 42, 42, 1);
 }
 
@@ -101,7 +101,7 @@ a {
 }
 
 .community-members-search ::placeholder {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 400;
     line-height: 16px;
     letter-spacing: 0.015em;
@@ -225,7 +225,7 @@ margin-top: 2%;
 }
 
 .community-icons-info p {
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 700;
     line-height: 4px;
     letter-spacing: 0.0015em;

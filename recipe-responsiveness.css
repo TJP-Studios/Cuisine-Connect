@@ -1,8 +1,4 @@
 @media screen and (max-width: 600px) {
-    body {
-        padding: 3%;
-    }
-
     .community-hero-img {
         width: 50%;
     }
@@ -63,19 +59,38 @@
         letter-spacing: 0.0015em;
     }
 
-    .pages-nav a {
-        font-size: 8px;
-        font-weight: 600;
-        line-height: 12px;
+    .pages-nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 18%;
+        margin: 6% 0 3% 0;
     }
     
-
-
-
-    /* Hamburger Responsive Clicks Start Here*/
-    body.hide {
-        padding-left: 50%;
-        padding-right: 5%;
+    .pages-nav .link-page {
+        width: 2%;
     }
-    /* Hamburger Responsive Clicks End Here*/
+    
+    .pages-nav .next {
+        width: 6%;
+    }
+    
+    .pages-nav .page-num {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 110%;
+    }
+    
+    .page-num a {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        color: rgba(42, 42, 42, 1);
+    }
+    
+    .page-num .active-page {
+        color: rgba(238, 154, 9, 1);
+    }
 }
