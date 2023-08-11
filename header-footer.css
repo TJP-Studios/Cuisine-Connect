@@ -152,18 +152,19 @@ nav a:hover {
         margin-bottom: 10%;
         border-bottom: 1px solid rgba(42, 42, 42, 0.5);
         padding-bottom: 2%;
-        width: 42%;
+        width: 38%;
     }
 
     .close-icon {
         display: block;
         margin-left: 700%;
         margin-top: 25%;
-        width: 150%;
+        width: 250%;
     }
 
     body.hide {
         margin-left: 50%;
+        margin-top: 3%;
     }
     
     .close-icon.hide, .main-toggle.hide {
