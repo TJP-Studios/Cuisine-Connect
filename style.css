@@ -66,7 +66,7 @@ div > .chef{
 .top_recipes {
   margin: 0 3% 0 5%;
 }
-.top_recipes_text > p {
+.top_recipes_text > h3 {
     font-size: 38px;
     color: #2A2A2A;
     font-weight: 700;
