@@ -28,12 +28,28 @@ main {
     background-color: rgba(238, 154, 9, 1);
     width: 40%;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    row-gap: 5%;
-    /* padding: 3%; */
+    padding: 3%;
+}
+
+.nav-link {
+    text-align: right;
+}
+
+.nav-link a {
+    font-size: 16px;
+    font-weight: 700;
+    /* line-height: 28px; */
+    letter-spacing: 0.0015em;
+    text-align: left;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: ease 0.3s;
+    margin-right: 2%;
+}
+
+.text-container {
+    margin-top: 40%;
 }
 
 .right-section h1 {
@@ -82,7 +98,7 @@ main {
 }
 
 form {
-    padding: 0% 10%;
+    padding: 2% 20% 0% 25%;
 }
 
 label {
@@ -96,7 +112,7 @@ label {
 }
 
 input {
-    width: 100%;
+    width: 90%;
     padding: 12px;
     border-radius: 4px;
     border: 1px solid rgba(42, 42, 42, 1);
