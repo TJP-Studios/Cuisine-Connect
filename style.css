@@ -241,4 +241,7 @@ display: flex;
     .tes_h3 {
       display: none;
         }
+    h3 {
+      font-size: 14px;
+    }
     }
