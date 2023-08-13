@@ -48,6 +48,11 @@ main {
     margin-right: 2%;
 }
 
+.nav-link a:hover {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 2%;
+}
+
 .text-container {
     margin-top: 40%;
 }
@@ -182,11 +187,15 @@ input {
     font-weight: 500;
     letter-spacing: 0.0015em;
     text-align: center;
+}
+
+.sign-up-btn p {
     color: rgba(42, 42, 42, 1);
 }
 
 a {
     font-weight: 700;
+    color: rgba(238, 154, 9, 1);
 }
 
 .or {
@@ -217,6 +226,10 @@ a {
     width: 30%;
     padding: 1% 0;
     cursor: pointer;
+}
+
+.sign-up-alt a {
+    color: rgba(42, 42, 42, 1);
 }
 
 @media screen and (max-width: 860px) {
