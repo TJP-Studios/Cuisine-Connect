@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Lato:wght@700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Lato:wght@700&display=swap');
 
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
 body{
+  margin: 0;  
+  padding: 0;
   font-family: 'Inconsolata', monospace;
   font-family: 'Lato', sans-serif;
 }
@@ -40,6 +40,7 @@ display: flex;
   width: 20%;
   position: absolute;
   top: 15%;
+  z-index: -1;
 }
 
 div > .chef{
@@ -99,12 +100,12 @@ div > .chef{
 
 .your_recipes_text > p{
   font-size: 20px;
-  margin-left: 75%;
+  margin-left: 72%;
   margin-bottom: -10%;
   padding-top: 2%;
   justify-content: flex-end;
   color: #EE9A09;
-  ;
+  cursor: pointer;
 }
 
                 /* New Recipes Section */
@@ -122,12 +123,12 @@ div > .chef{
 
 .new_recipes_text > p{
   font-size: 20px;
-  margin-left: 75%;
+  margin-left: 72%;
   margin-bottom: -10%;
   padding-top: 2%;
   justify-content: flex-end;
   color: #EE9A09;
-  ;
+  cursor: pointer;
 }
 .new_recipe_img {
   display: flex;
@@ -241,7 +242,13 @@ display: flex;
     .tes_h3 {
       display: none;
         }
+
+    .discover_text > p {
+      font-size: 15%;
+    }    
+
     h3 {
-      font-size: 14px;
+      font-size: 5%;
     }
+
     }
