@@ -56,7 +56,6 @@ div > .chef{
 .discover_text > p {
  font-size: 40px;
  font-weight: 700;
- line-height: 60px;
  margin-left: -10%;
  letter-spacing: -0.9%;
  font-family: 'Inconsolata', monospace;
@@ -68,7 +67,7 @@ div > .chef{
   margin: 0 3% 0 5%;
 }
 .top_recipes_text > h3 {
-    font-size: 38px;
+    font-size: 32px;
     color: #2A2A2A;
     font-weight: 700;
     letter-spacing: 0.25%;
@@ -92,18 +91,17 @@ div > .chef{
 
 .your_recipes_text{
   display: flex;
+  justify-content: space-between;
   margin-bottom: -2%;
 }
 .your_recipes_text > h3{
-  font-size: 38px;
+  font-size: 32px;
 }
 
 .your_recipes_text > p{
-  font-size: 20px;
-  margin-left: 72%;
+  font-size: 16px;
   margin-bottom: -10%;
   padding-top: 2%;
-  justify-content: flex-end;
   color: #EE9A09;
   cursor: pointer;
 }
@@ -115,37 +113,42 @@ div > .chef{
 
 .new_recipes_text{
   display: flex;
+  justify-content: space-between;
   margin-bottom: -2%;
 }
 .new_recipes_text > h3{
-  font-size: 38px;
+  font-size: 32px;
 }
 
 .new_recipes_text > p{
-  font-size: 20px;
-  margin-left: 72%;
+  font-size: 16px;
   margin-bottom: -10%;
   padding-top: 2%;
-  justify-content: flex-end;
   color: #EE9A09;
   cursor: pointer;
 }
 .new_recipe_img {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3%;
   box-sizing: border-box;
 }
+
+
 .new_recipe_img > div {
   width: 40%;
 }
-.new_food_img {
-  width: 90%;
+.dish_name{
+  margin-bottom: -1%;
 }
-.new_mid {
-  margin: 0 3%;
+.new_food_img {
+  width: 100%;
 }
 
 .star_img {
   width: 25%;
+  margin: -10% 0 -3% 0;
 }
                /* Testimonials */
 .testimonials{
@@ -154,7 +157,7 @@ div > .chef{
 }
 
 .tes_h3{
-  font-size: 38px;
+  font-size: 32px;
   margin: 3% 3% 0 5%;
 }
 
@@ -172,15 +175,18 @@ div > .chef{
   margin-top: -3%;
 }
 
-.testimony_text {
-  width: 
-  80%;
+.testimony_text  {
+  width: 80%;
+  color: rgba(42, 42, 42, 1);
+  font-weight: 400;
 }
+
+
 
 .jimmy_about > p,
 .evelyn_about > p,
 .blessing_about > p {
-  margin-top: -8%;
+  margin-top: -10%;
 }
 
 
@@ -196,7 +202,8 @@ div > .chef{
 }
 
 .downlod_text > h2 {
-  font-size: 45px;
+  font-size: 32px;
+  padding-bottom: 3%;
   letter-spacing: 0.2%;
 }
 
