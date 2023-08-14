@@ -26,7 +26,7 @@ a {
 }
 
 .nav-link a {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
     /* line-height: 28px; */
     letter-spacing: 0.0015em;
@@ -63,14 +63,15 @@ a {
 }
 
 .contact-info {
-    width: 50%;
+    width: 60%;
     padding-top:3%;
 }
 
 .contact-info h1 {
     color: rgba(238, 154, 9, 1);
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 700;
+    margin-bottom: 3%;
 }
 
 .contact-details {
@@ -92,44 +93,51 @@ a {
 }
 
 h5 {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 600;
     color: rgba(238, 154, 9, 1);
 }
 
 p {
-    color: #00054B;
-    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
     font-weight: 400;
+}
+
+.contact-us {
+    margin-right: -25%;
+    width: 50%;
 }
 
 .contact-us a {
     color: #FFF;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 500;
     border-radius: 48px;
     background: rgba(238, 154, 9, 1);
-    padding: 3% 20%;
+    padding: 3% 16%;
 }
 
 .contact {
     margin-top: 10%;
 }
 
-.contact-us {
-    width: 40%;
-}
-
 .contact-socials {
+    width: 40%;
     display: flex;
     align-items: center;
-    width: 40%;
-    margin-left: -10%;
 }
 
 .contact-socials img {
-    width: 40%;
+    width: 50%;
     border-radius: 50%;
-    margin-right: -10%;
 }
 
+
+/* Responsive Mobile Starts Here */
+@media  and (max-width: 600px) {
+    
+}
+
+
+/* Responsive Mobile Starts Here */
