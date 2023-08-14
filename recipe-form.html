@@ -70,7 +70,7 @@
                     <span>*All fields are important</span>
                 </h3>
                 <div class="recipe">
-                    <div class="recipe-containers">
+                    <div class="recipe-title-link">
                         <div class="recipe-title">
                             <label for="recipe-title">Recipe Title*</label>
                             <input type="text" name="recipe-title" id="recipe-title" required>
@@ -92,26 +92,31 @@
                         <div class="category">
                             <label for="category">Category*</label>
                             <select name="category" id="category" required>
-                            <option value=""></option>
+                            <option value="">Nigerian</option>
+                            <option value="">African</option>
+                            <option value="">Continental</option>
                             </select>
                         </div>
         
                         <div class="servings">
                             <label for="servings">Servings*</label>
                             <select name="servings" id="servings" required>
-                            <option value=""></option>
+                                <option value="">Traditional</option>
+                                <option value="">Classical</option>
                             </select>
                         </div>
         
                         <div class="difficulty">
                             <label for="difficulty">Difficulty</label>
                             <select name="difficulty" id="difficulty">
-                            <option value=""></option>
+                                <option value="">Easy</option>
+                                <option value="">Medium</option>
+                                <option value="">Hard</option>
                             </select>
                         </div>
                     </div>
     
-                    <div class="recipe-containers">
+                    <div class="prep-cook-time">
                         <div class="prep-time">
                             <label for="prep-time">Preparation Time*</label>
                             <input type="text" name="prep-time" id="prep-time" required>
@@ -128,13 +133,15 @@
                 <h3>Ingredients</h3>
                 <div class="ingredients">
                     <div class="ingredients-container">
-                        <p>
-                            By default, display this recipe with ingredient quantities in:
-                        </p>
+                        <div class="radio-us-metric-txt">
+                            <p>
+                                By default, display this recipe with ingredient quantities in:
+                            </p>
+                        </div>
                         
                         <div class="radio-us-metric">
                             <div class="radio-us">
-                                <input type="radio" name="us-metric id="us-metric">
+                                <input type="radio" name="us-metric" id="us-metric">
                                 <label for="">US</label>
                             </div>
             
@@ -153,7 +160,9 @@
                             
                             <div class="unit">
                                 <select name="select-unit" id="select-unit">
-                                <option value=""></option>
+                                    <option value="">mg</option>
+                                    <option value="">kg</option>
+                                    <option value="">g</option>
                                 </select>
                             </div>
                             
