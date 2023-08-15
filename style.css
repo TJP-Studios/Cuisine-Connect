@@ -28,7 +28,7 @@ img {
   align-items: center;
   position: relative;
   position: relative;
-  margin: 0 2% 0 4%;
+  margin: 0 3% 0 3%;
 }
 
 .discover_img{
@@ -64,7 +64,7 @@ div > .chef{
 
       /* top recipes */
 .top_recipes {
-  margin: 0 3% 0 5%;
+  margin: 0 3% 0 3%;
 }
 .top_recipes_text > h3 {
     font-size: 32px;
@@ -86,7 +86,7 @@ div > .chef{
 
       /* Your Recipes  */
 .your_recipes {
-  margin: 0 3% 0 5%;
+  margin: 0 3% 0 3%;
 }   
 
 .your_recipes_text{
@@ -108,7 +108,7 @@ div > .chef{
 
                 /* New Recipes Section */
 .new_recipes{
-  margin: 0 3% 0 5%;
+  margin: 0 3% 0 3%;
 }                
 
 .new_recipes_text{
@@ -152,7 +152,7 @@ div > .chef{
 }
                /* Testimonials */
 .testimonials{
-  margin: 2% 3% 0 5%;
+  margin: 3% 3% 0 3%;
   display: flex;
 }
 
@@ -193,7 +193,7 @@ div > .chef{
 
                         /* Download Section */
 .download {
-  margin: 3% 3% 2% 5%;
+  margin: 3% 3% 2% 3%;
   display: flex;
 }
 
