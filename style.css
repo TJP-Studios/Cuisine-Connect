@@ -177,16 +177,15 @@ div > .chef{
 
 .testimony_text  {
   width: 80%;
-  /* color: rgba(42, 42, 42, 1); */
+  line-height: 1.2rem;
+  font-weight: 500;
 }
 
-
-
-.jimmy_about > p,
-.evelyn_about > p,
-.blessing_about > p {
+.jimmy_about > h3,
+.evelyn_about > h3,
+.blessing_about > h3 {
   margin-top: -10%;
-  font-weight: normal;
+  font-weight: 500;
 }
 
 
