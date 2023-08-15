@@ -40,6 +40,7 @@ display: flex;
   width: 20%;
   position: absolute;
   top: 15%;
+  left: -3%;
   z-index: -1;
 }
 
@@ -56,7 +57,7 @@ div > .chef{
 .discover_text > p {
  font-size: 40px;
  font-weight: 700;
- margin-left: -10%;
+ margin-left: -38%;
  letter-spacing: -0.9%;
  font-family: 'Inconsolata', monospace;
  font-family: 'Lato', sans-serif;
@@ -163,7 +164,6 @@ div > .chef{
 
 .jimmy, .evelyn, .blessing {
   width: 40%;
-  box-shadow: 5px;
 }
 
 .flext {
@@ -177,8 +177,7 @@ div > .chef{
 
 .testimony_text  {
   width: 80%;
-  color: rgba(42, 42, 42, 1);
-  font-weight: 400;
+  /* color: rgba(42, 42, 42, 1); */
 }
 
 
@@ -187,6 +186,7 @@ div > .chef{
 .evelyn_about > p,
 .blessing_about > p {
   margin-top: -10%;
+  font-weight: normal;
 }
 
 
