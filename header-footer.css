@@ -13,7 +13,7 @@ header {
 }
 
 nav {
-    width: 40%;
+    width: 50%;
     margin: 0 3% 0 20%;
 }
 
@@ -32,9 +32,8 @@ nav .header-menus {
 }
 
 nav a {
-font-size: 18px;
+font-size: 16px;
 font-weight: 500;
-line-height: 28px;
 letter-spacing: 0.0015em;
 text-align: left;
 color: rgba(42, 42, 42, 1);
@@ -83,7 +82,7 @@ nav a:hover {
 }
 
 .search-input ::placeholder {
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 500;
     letter-spacing: -0.02em;
     color: rgba(42, 42, 42, 1);
@@ -167,7 +166,7 @@ footer {
 }
 
 .subscribe p {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.0015em;
@@ -177,14 +176,14 @@ footer {
 }
 
 .subscribe input {
-    padding: 2.2% 1%;
+    padding: 2.2% 0%;
     border-radius: 4px 0 0 4px;
     border: 1px solid #2A2A2A;
     vertical-align: middle;
 }
 
 .subscribe ::placeholder {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 500;
     letter-spacing: -0.02em;
     text-align: center;
@@ -198,7 +197,7 @@ footer {
     /* border: none; */
     color: #FFFFFF;
     background-color: #2A2A2A;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 500;
     letter-spacing: -0.02em;
     text-align: center;
@@ -220,7 +219,7 @@ footer {
 
 
 /* Responsive Mobile Starts Here */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 720px) {
     header {
         margin: 1% 5%;
         justify-content: space-between;
@@ -376,5 +375,49 @@ footer {
         margin-bottom: 10%;
     }
     /* Hamburger Responsive Clicks End Here*/
+}
+
+    /* Tablets Responsiveness Starts Here*/
+@media screen and (max-width: 990px) and (min-width: 721px) {
+    .header-logo {
+        width: 30%;
+    }
+    
+    nav {
+        width: 70%;
+        margin: 0 3% 0 20%;
+    }
+
+    nav .header-menus {
+        display: flex;
+        /* justify-content: space-between; */
+        align-items: center;
+    }
+
+    nav a {
+        font-size: 10px;
+        font-weight: 400;
+        }
+}
+
+.search-input input {
+    width: 90%;
+}
+
+.search-input ::placeholder {
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    color: rgba(42, 42, 42, 1);
+}
+
+.header-btn {
+    font-size: 10px;
+    padding: 0.1% 2%px;
+    border-radius: 4px;
+    background: #EE9A09;
+    color: #FFFFFF;
+    border: none;
+    transition: ease 0.3s;
 }
     /* Responsive Mobile Ends Here */
