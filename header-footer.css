@@ -3,8 +3,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1% auto;
-    width: 95%;
+    margin: 1% 3%;
 }
 
 .header-logo {
@@ -67,6 +66,7 @@ nav a:hover {
     border: 1px solid #EE9A09CC;
     border-radius: 4px;
     margin-right: 1%;
+    width: 25%;
 }
 
 .search-input img {
@@ -81,16 +81,16 @@ nav a:hover {
     width: 70%;
 }
 
-.search-input ::placeholder {
-    font-size: 20px;
+.search-input input::placeholder {
+    font-size: 14px;
     font-weight: 500;
     letter-spacing: -0.02em;
     color: rgba(42, 42, 42, 1);
 }
 
-.header-btn {
+header .header-btn {
     font-size: 14px;
-    padding: 12px 20px;
+    padding: 1% 2%;
     border-radius: 4px;
     background: #EE9A09;
     color: #FFFFFF;
@@ -277,7 +277,7 @@ footer {
         width: 5%;
         position: absolute;
         top: 3%;
-        right: 3%;
+        right: 7%;
         z-index: 1;
     }
 
@@ -293,7 +293,7 @@ footer {
     .header-footer-click.hide {
         display: block;
         width: 50%;
-        height: 250vh;
+        height: 260vh;
         position: absolute;
         top: 3;
         right: 0;
@@ -353,14 +353,20 @@ footer {
 
     .footer-hamburger-click .subscribe input {
         width: 60%;
+        padding: 2.1% 0%;
+        border-radius: 4px 0 0 4px;
+        border: 1px solid #2A2A2A;
     }
     
     .footer-hamburger-click .subscribe ::placeholder {
-        font-size: 12px;
+        font-size: 14px;
     }
     
     .footer-hamburger-click .subscribe a {
         font-size: 14px;
+        padding: 1.8% 3%;
+        border-radius: 0 4px 4px 0;
+        border: 1px solid #2A2A2A;
     }
     
     .footer-hamburger-click .subscribe a:hover {
@@ -386,8 +392,8 @@ footer {
     }
     
     nav {
-        width: 100%;
-        margin: 0 3% 0 10%;
+        width: 90%;
+        margin: 0 3% 0 5%;
     }
 
     nav .header-menus {
@@ -399,26 +405,27 @@ footer {
         font-size: 14px;
         font-weight: 400;
         }
+
+        .search-input input {
+            width: 100%;
+        }
+        
+        .search-input input::placeholder {
+            font-size: 12px;
+            font-weight: 400;
+            letter-spacing: -0.02em;
+            color: rgba(42, 42, 42, 1);
+        }
+        
+        header .header-btn {
+            font-size: 12px;
+            /* padding: 1% 2%; */
+            border-radius: 4px;
+            background: #EE9A09;
+            color: #FFFFFF;
+            border: none;
+            transition: ease 0.3s;
+        }
 }
 
-.search-input input {
-    width: 100%;
-}
-
-.search-input ::placeholder {
-    font-size: 10px;
-    font-weight: 400;
-    letter-spacing: -0.02em;
-    color: rgba(42, 42, 42, 1);
-}
-
-.header-btn {
-    font-size: 10px;
-    padding: 0.1% 2%px;
-    border-radius: 4px;
-    background: #EE9A09;
-    color: #FFFFFF;
-    border: none;
-    transition: ease 0.3s;
-}
     /* Responsive Mobile Ends Here */

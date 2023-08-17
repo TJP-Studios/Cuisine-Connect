@@ -43,36 +43,6 @@ a {
     text-align: justify;
     color: rgba(42, 42, 42, 1);
 }
-.recipe-title-link {
-    display: flex;
-    align-items: center;
-    gap: 11%;
-    margin: 1% 0;
-}
-
-.recipe-containers {
-    display: flex;
-    align-items: center;
-    gap: 17%;
-    margin: 1% 0;
-}
-
-.prep-cook-time {
-    display: flex;
-    align-items: center;
-    gap: 11%;
-    margin: 1% 0;
-}
-
-.servings {
-    margin-right: 1%;
-    width: 9.5%;
-}
-
-
-#difficulty {
-    /* width: 300%; */
-}
 
 form h3 {
     background: rgba(238, 154, 9, 0.3);
@@ -112,7 +82,7 @@ form input {
 }
 
 form select {
-    width: 250%;
+    width: 205%;
     /* height: 40px; */
     padding: 12px;
     border-radius: 4px;
@@ -127,27 +97,50 @@ form select {
     letter-spacing: 0.0015em;
 }
 
+.recipe-title-link {
+    display: flex;
+    align-items: center;
+    gap: 11%;
+    margin: 1% 0;
+}
+
+.recipe-containers {
+    display: flex;
+    align-items: center;
+    gap: 15%;
+    margin: 1% 0;
+}
+
+.category, .servings, .difficulty {
+    width: 11.5%;
+}
+
+.prep-cook-time {
+    display: flex;
+    align-items: center;
+    gap: 11%;
+    margin: 1% 0;
+}
+
 .qty-unit-ingredients-btn {
     display: flex;
     align-items: center;
-    gap: 40%;
+    /* justify-content: space-between; */
+    gap: 33%;
 }
 
 .qty-unit-ingredients {
     display: flex;
     align-items: center;
-    gap: 67%;
+    gap: 55%;
     margin: 1% 0;
+    width: 44%;
 }
 
 #qty, #select-unit, #your-ingredients {
     width: 1100%;
-    margin-right: 10%;
 }
 
-.your-ingredients input {
-    /* width: 480%; */
-}
 
 textarea {
     width: 100%;
@@ -348,13 +341,16 @@ form p {
         gap: 1%;
     }
 
-    #category {
-        width: 120%;
+    .recipe-containers {
+        display: flex;
+        align-items: center;
+        gap: 21%;
+        margin: 1% 0;
     }
 
-    .servings {
-        width: 18%;
-    } 
+    .category, .servings {
+        width: 16%;
+    }
 
     .privacy {
         flex-direction: column;
@@ -381,13 +377,6 @@ form p {
 
    ::placeholder {
         font-size: 10px;
-    }
-
-    .recipe-containers {
-        display: flex;
-        align-items: center;
-        gap: 13%;
-        margin: 1% 0;
     }
 
     .ingredients-container {
@@ -422,7 +411,7 @@ form p {
     }
 
     .tag {
-        gap: 5%;
+        gap: 1%;
     }
 
     form p {
@@ -466,3 +455,216 @@ form p {
     
 }
     /* Responsiveness starts here */
+@media screen and (min-width: 1180px) and (max-width: 1280px) {
+    .qty-unit-ingredients-btn {
+        gap: 35%;
+    }
+
+    .tag {
+        gap: 22%;
+    }
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1179px) {
+    .qty-unit-ingredients-btn {
+        gap: 41%;
+    }
+
+    .tag {
+        gap: 24%;
+    }
+
+    .qty-unit-ingredients {
+        gap: 59%;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1099px) {
+    .recipe-form-hero h1 {
+        font-size: 24px;
+    }
+    
+    .recipe-form-hero p, form label {
+        font-size: 18px;
+    }
+    
+    form h3 {
+        font-size: 20px;
+    }
+    
+    form h3 span {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0.015em;
+        margin-left: 1%;
+        vertical-align: middle;
+        color: rgba(255, 0, 0, 1);
+    }
+    
+    form input {
+        width: 110%;
+    }
+    
+    ::placeholder {
+        font-size: 12px;
+    }
+    
+    .recipe-title-link {
+        gap: 4%;
+    }
+    
+    .recipe-containers {
+        display: flex;
+        align-items: center;
+        gap: 18%;
+        margin: 1% 0;
+    }
+    
+    .category, .servings, .difficulty {
+        width: 16%;
+    }
+    
+    .prep-cook-time {
+        gap: 5%;
+    }
+    
+    .qty-unit-ingredients-btn {
+        display: flex;
+        align-items: center;
+        gap: 23%;
+    }
+    
+    .qty-unit-ingredients {
+        display: flex;
+        align-items: center;
+        gap: 43%;
+        margin: 1% 7% 1% 0;
+        width: 80%;
+    }
+    
+    #qty, #select-unit, #your-ingredients {
+        width: 620%;
+    }
+    
+    
+    textarea {
+        width: 100%;
+        outline: 0;
+        padding: 1%;
+    }
+    
+    form p {
+        font-size: 22px;
+        font-weight: 500;
+        letter-spacing: 0em;
+        text-align: left;
+        vertical-align: middle;
+        margin: 1% 0;
+        color: rgba(42, 42, 42, 1);
+    }
+    
+    .ingredients-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .radio-us-metric {
+        display: flex;
+        align-items: center;
+    }
+    
+    .radio-us, .radio-metric {
+        display: flex;
+        align-items: center;
+        width: 40%;
+    }
+    
+    .radio-us input, .radio-metric input {
+        width: 20%;
+        vertical-align: middle;
+    }
+    
+    .tags input {
+        width: 150%;
+    }
+    
+    .tag {
+        gap: 15%;
+    }
+    
+    .privacy {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .radio-allow-recipe, .radio-keep-recipe {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    
+    .radio-allow-recipe,     .radio-keep-recipe {
+        width: 100%;
+    }
+    
+    .radio-allow-recipe input {
+        width: 4%;
+    }
+    
+    .radio-keep-recipe input {
+        width: 2.5%;
+    }
+    
+    .form-btn {
+        font-size: 14px;;
+    }
+    
+    }
+    .recipe-upload p, .recipe-upload a {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: rgba(42, 42, 42, 1);
+    }
+    
+    .recipe-form-btn-container {
+        text-align: center;
+        margin: 3% 0;
+    }
+    
+    .recipe-form-btn-container .form-btn {
+        padding: 0.5% 2%;
+        border-radius: 4px;
+        border: none;
+        background: rgba(238, 154, 9, 1);
+        color: #FFFFFF;
+        font-size: 18px;
+        vertical-align: middle;
+        text-transform: uppercase;
+    }
+    
+    
+    .note h5 {
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(42, 42, 42, 1);
+        margin-bottom: 1%;
+    }
+    
+    .note p {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 40px;
+        letter-spacing: 0.015em;
+        text-align: justify;
+        color: rgba(42, 42, 42, 1);
+        margin-bottom: 1%;
+    }
+}
+

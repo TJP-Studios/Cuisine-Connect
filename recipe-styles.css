@@ -24,7 +24,7 @@ a {
     align-items: center;
     justify-content: center;
     gap: 20%;
-    margin: 1% 3%;
+    margin: 1% 5%;
 }
 
 .recipe-hero-img {
@@ -44,19 +44,10 @@ text-align: justify;
 color: rgba(42, 42, 42, 1);
 }
 
-.recipe-hero-txt p {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 40px;
-    letter-spacing: 0.0015em;
-    text-align: justify;
-    color: rgba(42, 42, 42, 1);
-}
-
 .recipe-meal-select-section {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
                 linear-gradient(0deg, rgba(43, 43, 43, 0.3), rgba(43, 43, 43, 0.3));
-    padding: 1% 3%;
+    padding: 1% 5%;
 }
 
 .recipe-meal-select {
@@ -83,7 +74,7 @@ color: rgba(42, 42, 42, 1);
 }
 
 .recipe-meal-section {
-    padding: 3% 3% 1% 3%;
+    padding: 3% 5% 1% 5%;
 }
 
 .recipe-meal {
@@ -167,40 +158,23 @@ color: rgba(42, 42, 42, 1);
 
 
 @media screen and (max-width: 600px) {
-    .community-hero-img {
-        width: 50%;
+    .recipe-hero-img {
+        width: 30%;
     }
 
-    .community-hero-txt {
-        width: 50%;
+    .recipe-hero-txt {
+        width: 70%;
     }
-    .community-hero-txt h1 {
-        font-size: 20px;
+    .recipe-hero-txt h1 {
+        font-size: 16px;
         font-weight: 700;
         line-height: 28px;
         letter-spacing: 0.15%;
     }
 
-    .community-hero-txt p {
-        font-size: 8px;
-        font-weight: 700;
-        line-height: 14px;
-        letter-spacing: 0em;
-        text-align: justified;
-    }
-
-    .recipe-hero-txt h1 {
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0em;
-        text-align: justify;
-        color: rgba(42, 42, 42, 1);
-    }
-
     .recipe-meal-select select {
         width: 15%;
-        font-size: 8px;
+        font-size: 10px;
         font-weight: 500;
         line-height: 12px;
         letter-spacing: -0.02em;
@@ -215,15 +189,15 @@ color: rgba(42, 42, 42, 1);
     }
 
     .recipe-meal-info h5 {
-        font-size: 7px;
+        font-size: 8px;
         font-weight: 500;
         line-height: 12px;
         letter-spacing: 0em;
     }
 
     .ratings p {
-        font-size: 6px;
-        font-weight: 500;
+        font-size: 7px;
+        font-weight: 400;
         letter-spacing: 0.0015em;
     }
 
@@ -231,16 +205,16 @@ color: rgba(42, 42, 42, 1);
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 18%;
+        gap: 8%;
         margin: 6% 0 3% 0;
     }
     
     .pages-nav .link-page {
-        width: 2%;
+        width: 1%;
     }
     
     .pages-nav .next {
-        width: 6%;
+        width: 2.5%;
     }
     
     .pages-nav .page-num {
@@ -248,6 +222,81 @@ color: rgba(42, 42, 42, 1);
         align-items: center;
         justify-content: center;
         gap: 110%;
+    }
+    
+    .page-num a {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        color: rgba(42, 42, 42, 1);
+    }
+    
+    .page-num .active-page {
+        color: rgba(238, 154, 9, 1);
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 990px) {
+    .recipe-hero-txt h1 {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 28px;
+    }
+    
+    .recipe-meal-select select {
+        width: 18%;
+        font-size: 12px;
+    }
+
+    .recipe-meal-info {
+        width: 24%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 2%;
+    }
+    
+    .recipe-meal-info h5 {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 12px;
+        letter-spacing: 0.0015em;
+        color: rgba(42, 42, 42, 1);
+        margin: 4% 0;
+    }
+    
+    .ratings p {
+        font-size: 10px;
+        font-weight: 500;
+        /* line-height: 4px; */
+        letter-spacing: 0.0015em;
+        text-align: center;
+        color: rgba(42, 42, 42, 1);
+        margin-left: 4%;
+    }
+    
+    .pages-nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 9%;
+        margin: 6% 0 3% 0;
+    }
+    
+    .pages-nav .link-page {
+        width: 1.5%;
+    }
+    
+    .pages-nav .next {
+        width: 4%;
+    }
+    
+    .pages-nav .page-num {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 90%;
     }
     
     .page-num a {
