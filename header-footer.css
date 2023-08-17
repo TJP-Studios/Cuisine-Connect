@@ -293,7 +293,7 @@ footer {
     .header-footer-click.hide {
         display: block;
         width: 50%;
-        height: 150vh;
+        height: 250vh;
         position: absolute;
         top: 3;
         right: 0;
@@ -311,8 +311,7 @@ footer {
 
     .footer-hamburger-click.hide {
         display: block;
-        margin-top: 60%;
-        background-color: #FFFFFF;
+        margin-top: 220%;
         padding: 0;
     }
 
