@@ -78,7 +78,7 @@ nav a:hover {
 .search-input input {
     border: none;
     outline: 0;
-    width: 80%;
+    width: 70%;
 }
 
 .search-input ::placeholder {
@@ -103,6 +103,10 @@ nav a:hover {
     color: #EE9A09;
     border: 1px solid #EE9A09;
 }
+
+.header-footer-click {
+    display: none;
+}
 /* Header Ends Here*/
 
 
@@ -120,7 +124,7 @@ footer {
 
 .footer-logo {
     width: 45%;
-    margin-bottom: 7%;
+    margin-bottom: 4%;
 }
 
 .socials {
@@ -166,38 +170,38 @@ footer {
 }
 
 .subscribe p {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.0015em;
     text-align: justify;
     color: rgba(42, 42, 42, 1);
-    margin-bottom: 6%;
+    margin-bottom: 12%;
 }
 
 .subscribe input {
-    padding: 2.2% 0%;
+    padding: 2.1% 0%;
     border-radius: 4px 0 0 4px;
     border: 1px solid #2A2A2A;
     vertical-align: middle;
 }
 
 .subscribe ::placeholder {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
     letter-spacing: -0.02em;
     text-align: center;
     color: rgba(42, 42, 42, 0.7);
-    vertical-align: middle;
+    /* vertical-align: middle; */
 }
 
 .subscribe a {
-    padding: 2.3% 3%;
+    padding: 1.9% 3%;
     border-radius: 0 4px 4px 0;
-    /* border: none; */
+    border: 1px solid #2A2A2A;
     color: #FFFFFF;
     background-color: #2A2A2A;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
     letter-spacing: -0.02em;
     text-align: center;
@@ -209,7 +213,6 @@ footer {
 .subscribe a:hover {
     color: #2A2A2A;
     background-color: #FFFFFF;
-    border: 1px solid #2A2A2A;
 }
 
 .footer-hamburger-click {
@@ -264,22 +267,41 @@ footer {
         margin-bottom: 10%;
         border-bottom: 1px solid rgba(42, 42, 42, 0.5);
         padding-bottom: 2%;
-        width: 55%;
+        width: 45%;
     }
 
     .close-icon {
         display: block;
-        margin-left: 700%;
-        margin-top: 25%;
-        width: 250%;
+        /* margin-left: 400%; */
+        /* margin-top: 25%; */
+        width: 5%;
+        position: absolute;
+        top: 3%;
+        right: 3%;
+        z-index: 1;
     }
 
-    body.hide {
-        margin-left: 50%;
-        margin-top: 3%;
+    .empty.hide {
+        background: rgba(42, 42, 42, 0.6);
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .header-footer-click.hide {
+        display: block;
+        width: 50%;
+        height: 150vh;
+        position: absolute;
+        top: 3;
+        right: 0;
+        background-color: #FFFFFF;
+        padding: 8% 3%;
     }
     
-    .close-icon.hide, .main-toggle.hide {
+    .close-icon.hide {
         display: none;
     }
 
@@ -289,11 +311,14 @@ footer {
 
     .footer-hamburger-click.hide {
         display: block;
-        margin-top: 99%;
+        margin-top: 60%;
+        background-color: #FFFFFF;
+        padding: 0;
     }
 
     .footer-hamburger-link a:hover {
         background-color: rgba(42, 42, 42, 0.2);
+        padding: 1%;
     }
 
     .footer-hamburger-link a {
@@ -328,41 +353,19 @@ footer {
     }
 
     .footer-hamburger-click .subscribe input {
-        padding: 2.2% 1%;
-        border-radius: 4px 0 0 4px;
-        border: 1px solid #2A2A2A;
-        vertical-align: middle;
         width: 60%;
     }
     
     .footer-hamburger-click .subscribe ::placeholder {
-        font-size: 10px;
-        font-weight: 500;
-        letter-spacing: -0.02em;
-        text-align: center;
-        color: rgba(42, 42, 42, 0.7);
-        vertical-align: middle;
+        font-size: 12px;
     }
     
     .footer-hamburger-click .subscribe a {
-        padding: 3.7% 3%;
-        border-radius: 0 4px 4px 0;
-        /* border: none; */
-        color: #FFFFFF;
-        background-color: #2A2A2A;
-        font-size: 10px;
-        font-weight: 500;
-        letter-spacing: -0.02em;
-        text-align: center;
-        margin-left: -2%;
-        vertical-align: middle;
-        transition: 0.2s ease;
+        font-size: 14px;
     }
     
     .footer-hamburger-click .subscribe a:hover {
-        color: #2A2A2A;
-        background-color: #FFFFFF;
-        border: 1px solid #2A2A2A;
+        color: rgba(42, 42, 42, 1);
     }
 
     .footer-hamburger-click .socials {
@@ -380,28 +383,27 @@ footer {
     /* Tablets Responsiveness Starts Here*/
 @media screen and (max-width: 990px) and (min-width: 721px) {
     .header-logo {
-        width: 30%;
+        width: 20%;
     }
     
     nav {
-        width: 70%;
-        margin: 0 3% 0 20%;
+        width: 100%;
+        margin: 0 3% 0 10%;
     }
 
     nav .header-menus {
         display: flex;
-        /* justify-content: space-between; */
         align-items: center;
     }
 
     nav a {
-        font-size: 10px;
+        font-size: 14px;
         font-weight: 400;
         }
 }
 
 .search-input input {
-    width: 90%;
+    width: 100%;
 }
 
 .search-input ::placeholder {

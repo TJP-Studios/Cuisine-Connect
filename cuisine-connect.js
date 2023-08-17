@@ -1,4 +1,5 @@
-const bodyClick = document.querySelector ('body')
+const emptyClick = document.querySelector ('.empty')
+const headerFooterClick = document.querySelector ('.header-footer-click')
 const hamburgerIcon = document.querySelector ('.hamburger-icon')
 const closeIcon = document.querySelector ('.close-icon')
 const hamburgerMenu = document.querySelector ('.hamburger-menu')
@@ -7,7 +8,8 @@ const mainToggle = document.querySelector ('.main-toggle')
 const footerHamburgerClick = document.querySelector ('.footer-hamburger-click')
 
 hamburgerIcon.addEventListener('click', ()=> {
-    bodyClick.classList.add('hide')
+    emptyClick.classList.add('hide')
+    headerFooterClick.classList.add('hide');
     hamburgerIcon.classList.add('hide');
     closeIcon.classList.remove('hide');
     hamburgerMenu.classList.toggle('visible');
@@ -18,7 +20,8 @@ hamburgerIcon.addEventListener('click', ()=> {
 )
 
 closeIcon.addEventListener('click', ()=> {
-    bodyClick.classList.remove('hide')
+    emptyClick.classList.remove('hide')
+    headerFooterClick.classList.remove('hide');
     closeIcon.classList.add('hide');
     hamburgerIcon.classList.remove('hide');
     hamburgerMenu.classList.toggle('visible');

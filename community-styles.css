@@ -39,7 +39,6 @@ a {
     font-weight: 700;
     line-height: 68px;
     letter-spacing: 0.0025em;
-    text-align: justify;
     color: rgba(42, 42, 42, 1);
 }
 
@@ -48,14 +47,12 @@ a {
     font-weight: 500;
     line-height: 40px;
     letter-spacing: 0.0015em;
-    text-align: justify;
     color: rgba(42, 42, 42, 1);
 }
 
 .community-members-search {
     padding: 1% 5%;
     background: rgba(250, 225, 181, 1);
-    /* box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4); */
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 
 }
@@ -121,7 +118,6 @@ margin-top: 2%;
     align-items: center;
     gap: 2%;
     width: 80%;
-    /* margin: 3% 5% 1% 5%; */
 }
 
 .community-members-post img {
@@ -477,4 +473,21 @@ margin-top: 2%;
         color: rgba(238, 154, 9, 1);
     }
     /* Hamburger Responsive Clicks End Here*/
+}
+
+@media screen and (max-width: 990px) and (min-width: 601px) {
+    .community-hero-txt h1 {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: 0.15%;
+    }
+
+    .community-hero-txt p {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0em;
+        margin-top: 2%;
+    }
 }

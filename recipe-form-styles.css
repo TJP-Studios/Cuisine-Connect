@@ -461,4 +461,8 @@ form p {
         font-size: 10px;
     }
 }
+
+@media screen and (max-width: 990px) and (min-width: 601px) {
+    
+}
     /* Responsiveness starts here */
