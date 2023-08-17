@@ -28,7 +28,7 @@ img {
   align-items: center;
   position: relative;
   position: relative;
-  margin: 0 3% 0 5%;
+  margin: 0 3% 0 3%;
 }
 
 .discover_img{
@@ -40,6 +40,7 @@ display: flex;
   width: 20%;
   position: absolute;
   top: 15%;
+  left: -3%;
   z-index: -1;
 }
 
@@ -56,7 +57,7 @@ div > .chef{
 .discover_text > p {
  font-size: 40px;
  font-weight: 700;
- margin-left: -10%;
+ margin-left: -38%;
  letter-spacing: -0.9%;
  font-family: 'Inconsolata', monospace;
  font-family: 'Lato', sans-serif;
@@ -64,7 +65,7 @@ div > .chef{
 
       /* top recipes */
 .top_recipes {
-  margin: 0 3% 0 5%;
+  margin: 0 3% 0 3%;
 }
 .top_recipes_text > h3 {
     font-size: 32px;
@@ -86,7 +87,7 @@ div > .chef{
 
       /* Your Recipes  */
 .your_recipes {
-  margin: 0 3% 0 5%;
+  margin: 0 3% 0 3%;
 }   
 
 .your_recipes_text{
@@ -108,7 +109,7 @@ div > .chef{
 
                 /* New Recipes Section */
 .new_recipes{
-  margin: 0 3% 0 5%;
+  margin: 0 3% 0 3%;
 }                
 
 .new_recipes_text{
@@ -152,7 +153,7 @@ div > .chef{
 }
                /* Testimonials */
 .testimonials{
-  margin: 2% 3% 0 5%;
+  margin: 3% 3% 0 3%;
   display: flex;
 }
 
@@ -163,7 +164,6 @@ div > .chef{
 
 .jimmy, .evelyn, .blessing {
   width: 40%;
-  box-shadow: 5px;
 }
 
 .flext {
@@ -177,23 +177,22 @@ div > .chef{
 
 .testimony_text  {
   width: 80%;
-  color: rgba(42, 42, 42, 1);
-  font-weight: 400;
+  line-height: 1.2rem;
+  font-weight: 500;
 }
 
-
-
-.jimmy_about > p,
-.evelyn_about > p,
-.blessing_about > p {
+.jimmy_about > h3,
+.evelyn_about > h3,
+.blessing_about > h3 {
   margin-top: -10%;
+  font-weight: 500;
 }
 
 
 
                         /* Download Section */
 .download {
-  margin: 3% 3% 2% 5%;
+  margin: 3% 3% 2% 3%;
   display: flex;
 }
 
