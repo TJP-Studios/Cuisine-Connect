@@ -72,7 +72,7 @@ main {
 }
 
 .text-container {
-    /* margin-top: 50%; */
+    margin-top: 50%;
 }
 
 .left-section h1 {
@@ -86,7 +86,7 @@ main {
 
 .logo-hero {
     width: 20%;
-    margin: 15% auto 2% auto;
+    margin: 25% auto 2% auto;
 }
 
 form {
@@ -105,7 +105,7 @@ label {
 
 input {
     width: 100%;
-    padding: 10px;
+    padding: 2%;
     border-radius: 4px;
     border: none;
     background: rgba(212, 212, 212, 1);
@@ -119,8 +119,6 @@ input {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 2%;
-    margin-bottom: 3%;
 }
 
 .login .login-btn {
@@ -130,7 +128,7 @@ input {
     color: #FFFFFF;
     font-size: 20px;
     font-weight: 400;
-    margin: 1% 0;
+    margin: 2% 0;
     transition: ease 0.3s;
 }
 
@@ -162,7 +160,7 @@ input {
     font-weight: 500;
     letter-spacing: 0em;
     color: rgba(42, 42, 42, 1);
-    margin: 5% 0;
+    margin: 4% 0;
 }
 
 .login-alt {
@@ -175,19 +173,8 @@ input {
 }
 
 @media screen and (max-width: 860px) {
-.nav-link a {
-    font-size: 12px;
-}
     .left-section h1 {
         font-size: 18px;
-    }
-
-    .left-section p {
-        font-size: 16px;
-    }
-
-    .logo-hero h1 {
-        font-size: 24px;
     }
 
     .login-alt {
@@ -200,8 +187,19 @@ input {
         padding: 0;
     }
 
-    .or {
+    .nav-link a {
+        font-size: 12px;
+    }
+    .left-section h1 {
         font-size: 14px;
+    }
+
+    label, input, .login .login-btn, .or, .login p, a {
+        font-size: 14px;
+    }
+
+    .login-alt img {
+        width: 5%;
     }
 }
 
@@ -209,7 +207,7 @@ input {
     .nav-link a {
         font-size: 10px;
     }
-    .logo-hero h1 {
+    .left-section h1 {
         font-size: 14px;
     }
 
@@ -219,4 +217,5 @@ input {
 
     .login-alt img {
         width: 5%;
+    }
 }
