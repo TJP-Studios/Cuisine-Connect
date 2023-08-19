@@ -21,180 +21,135 @@ a {
 
 main {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    
 }
 
 .left-section {
-    background-color: rgba(238, 154, 9, 1);
-    width: 45%;
-    height: 100vh;
-    padding: 3%;
-}
-
-.nav-link {
-    text-align: right;
-}
-
-.nav-link a {
-    font-size: 16px;
-    font-weight: 700;
-    /* line-height: 28px; */
-    letter-spacing: 0.0015em;
-    text-align: left;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    text-decoration: none;
-    transition: ease 0.3s;
-    margin-right: 2%;
-}
-
-.nav-link a:hover {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-    padding: 2%;
-}
-
-.text-container {
-    margin-top: 40%;
-}
-
-.left-section h1 {
-    font-size: 28px;
-    font-weight: 700;
-    letter-spacing: 0.0025em;
-    color: #FFFFFF;
-    border: 4px solid rgba(239, 240, 242, 1);
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
-    padding: 1% 3%;
-    text-align: center;
-}
-
-.left-section p {
-    font-size: 24px;
-    font-weight: 700;
-    letter-spacing: 0.0015em;
-    color: #FFFFFF;
-    text-align: center;
+    width: 50%;
+    height: 150vh;
+    /* padding: 3%; */
+    position: relative;
+    /* background-image: url(./img/pics/close-up-food-lover-taking-pictures-meal\ 1.png);
+    background-size: cover; */
+    /* z-index: -1; */
 }
 
 .right-section {
-    width: 55%;
-    height: 100vh;
+    width: 50%;
+    height: 150vh;
+    /* padding: 3%; */
+    /* position: relative; */
 }
 
-.logo-hero {
+.bg-img {
+    height: 150vh;
+    position: absolute;
+    z-index: -1;
+}
+
+.nav-link {
     display: flex;
-    flex-direction: column;
+    justify-content: flex-end;
     align-items: center;
-    justify-content: center;
-    margin-top: 3%;
+    gap: 5%;
+    margin: 5%;
 }
 
-.logo-hero img {
-    width: 15%;
-    margin-bottom: 2%;
+.nav-link a {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.0015em;
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: ease 0.3s;
 }
 
-.logo-hero h1 {
-    font-size: 28px;
-    font-weight: 700;
-    letter-spacing: 0.0025em;
+.nav-link a:hover {
+    border-bottom: 1px solid rgba(238, 154, 9, 1);
+    padding-bottom: 1%;
+}
+
+.text-container {
+    /* margin-top: 50%; */
+}
+
+.left-section h1 {
+    font-size: 48px;
+    font-weight: 500;
+    letter-spacing: -0.015em;
     color: rgba(238, 154, 9, 1);
     text-align: center;
 }
 
+
+.logo-hero {
+    width: 20%;
+    margin: 15% auto 2% auto;
+}
+
 form {
-    padding: 2% 20% 0% 25%;
+    padding: 2% 15% 0% 15%;
 }
 
 label {
     display: block;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 500;
     letter-spacing: 0.0015em;
     line-height: 20px;
     color: rgba(42, 42, 42, 1);
-    margin-bottom: 1%;
+    margin-bottom: 3%;
 }
 
 input {
     width: 100%;
-    padding: 12px;
+    padding: 10px;
     border-radius: 4px;
-    border: 1px solid rgba(42, 42, 42, 1);
-    background-color: rgba(239, 240, 242, 1);
+    border: none;
+    background: rgba(212, 212, 212, 1);
     outline: 0;
-    margin-bottom: 2%;
+    margin-bottom: 7%;
     vertical-align: middle;
 }
-
-
-/* .place {
-    position: relative;
-} */
-
-/* form img {
-    width: 3%;
-    position: absolute;
-    right: 10;
-    bottom: 1;
-} */
-
-/* .sign-in {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    width: 100%;
-} */
-/* 
-.sign-in label {
-    display: inline;
-    width: 80%;
-    vertical-align: middle;
-    margin-left: 9%;
-} */
-
-/* .sign-in input {
-    width: 5%;
-    vertical-align: middle;
-} */
 
 .login {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 2%;
     margin-bottom: 3%;
 }
 
-.login-btn {
-    padding: 8px 15%;
+.login .login-btn {
+    padding: 1% 20%;
     border-radius: 4px;
     background: rgba(238, 154, 9, 1);
     color: #FFFFFF;
     font-size: 20px;
+    font-weight: 400;
     margin: 1% 0;
     transition: ease 0.3s;
 }
 
-.login-btn:hover {
+.login .login-btn:hover {
     background: #FFFFFF;
     color: rgba(238, 154, 9, 1);
     border: 1px solid rgba(238, 154, 9, 1);
 }
 
-.login-btn p, a {
-    font-size: 14px;
+.login p {
+    font-size: 20px;
     font-weight: 500;
-    letter-spacing: 0.0015em;
-    text-align: center;
-}
-
-.login-btn p {
+    letter-spacing: 0em;
     color: rgba(42, 42, 42, 1);
 }
 
-a {
-    font-weight: 700;
+.login a {
+    font-weight: 500;
+    letter-spacing: 0em;
     color: rgba(238, 154, 9, 1);
 }
 
@@ -203,33 +158,20 @@ a {
 }
 
 .or {
-    margin: 1% 0;
-    font-size: 18px;
-    font-weight: 700px;
-    letter-spacing: 0.0015em;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    color: rgba(42, 42, 42, 1);
+    margin: 5% 0;
 }
 
 .login-alt {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2%;
+    text-align: center;
 }
 
 .login-alt img {
-    width: 12%;
-}
-
-.login-alt a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap:3%;
-    border-radius: 4px;
-    border: 1.4px solid #D2D2D2;
-    width: 30%;
-    padding: 1% 0;
-    cursor: pointer;
+    width: 10%;
+    margin: 0 8%;
 }
 
 @media screen and (max-width: 860px) {
@@ -271,7 +213,10 @@ a {
         font-size: 14px;
     }
 
-    label, input, .or, p, a {
+    label, input, .login .login-btn, .or, .login p, a {
         font-size: 10px;
     }
+
+    .login-alt img {
+        width: 5%;
 }

@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    align-items: center;
+}
+
+.left-section {
+    background-color: rgba(238, 154, 9, 1);
+    width: 45%;
+    height: 100vh;
+    padding: 3%;
+}
+
+.nav-link {
+    text-align: right;
+}
+
+.nav-link a {
+    font-size: 16px;
+    font-weight: 700;
+    /* line-height: 28px; */
+    letter-spacing: 0.0015em;
+    text-align: left;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: ease 0.3s;
+    margin-right: 2%;
+}
+
+.nav-link a:hover {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 2%;
+}
+
+.text-container {
+    margin-top: 40%;
+}
+
+.left-section h1 {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0.0025em;
+    color: #FFFFFF;
+    border: 4px solid rgba(239, 240, 242, 1);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    padding: 1% 3%;
+    text-align: center;
+}
+
+.left-section p {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.0015em;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.right-section {
+    width: 55%;
+    height: 100vh;
+}
+
+.logo-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.logo-hero img {
+    width: 15%;
+    margin-bottom: 2%;
+}
+
+.logo-hero h1 {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0.0025em;
+    color: rgba(238, 154, 9, 1);
+    text-align: center;
+}
+
+form {
+    padding: 2% 20% 0% 25%;
+}
+
+label {
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.0015em;
+    line-height: 20px;
+    color: rgba(42, 42, 42, 1);
+    margin-bottom: 1%;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    border: 1px solid rgba(42, 42, 42, 1);
+    background-color: rgba(239, 240, 242, 1);
+    outline: 0;
+    margin-bottom: 2%;
+    vertical-align: middle;
+}
+
+
+/* .place {
+    position: relative;
+} */
+
+/* form img {
+    width: 3%;
+    position: absolute;
+    right: 10;
+    bottom: 1;
+} */
+
+/* .sign-in {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+} */
+/* 
+.sign-in label {
+    display: inline;
+    width: 80%;
+    vertical-align: middle;
+    margin-left: 9%;
+} */
+
+/* .sign-in input {
+    width: 5%;
+    vertical-align: middle;
+} */
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+.login-btn {
+    padding: 8px 15%;
+    border-radius: 4px;
+    background: rgba(238, 154, 9, 1);
+    color: #FFFFFF;
+    font-size: 20px;
+    margin: 1% 0;
+    transition: ease 0.3s;
+}
+
+.login-btn:hover {
+    background: #FFFFFF;
+    color: rgba(238, 154, 9, 1);
+    border: 1px solid rgba(238, 154, 9, 1);
+}
+
+.login-btn p, a {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.0015em;
+    text-align: center;
+}
+
+.login-btn p {
+    color: rgba(42, 42, 42, 1);
+}
+
+a {
+    font-weight: 700;
+    color: rgba(238, 154, 9, 1);
+}
+
+.login-alt a {
+    color: rgba(42, 42, 42, 1);
+}
+
+.or {
+    margin: 1% 0;
+    font-size: 18px;
+    font-weight: 700px;
+    letter-spacing: 0.0015em;
+}
+
+.login-alt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+
+.login-alt img {
+    width: 12%;
+}
+
+.login-alt a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:3%;
+    border-radius: 4px;
+    border: 1.4px solid #D2D2D2;
+    width: 30%;
+    padding: 1% 0;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 860px) {
+.nav-link a {
+    font-size: 12px;
+}
+    .left-section h1 {
+        font-size: 18px;
+    }
+
+    .left-section p {
+        font-size: 16px;
+    }
+
+    .logo-hero h1 {
+        font-size: 24px;
+    }
+
+    .login-alt {
+        gap: 5%;
+    }
+
+    .login-alt a {
+        width: 40%;
+        font-size: 14px;
+        padding: 0;
+    }
+
+    .or {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .nav-link a {
+        font-size: 10px;
+    }
+    .logo-hero h1 {
+        font-size: 14px;
+    }
+
+    label, input, .or, p, a {
+        font-size: 10px;
+    }
+}
