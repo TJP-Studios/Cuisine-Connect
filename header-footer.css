@@ -174,7 +174,6 @@ footer {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.0015em;
-    text-align: justify;
     color: rgba(42, 42, 42, 1);
     margin-bottom: 12%;
 }
@@ -196,7 +195,7 @@ footer {
 }
 
 .subscribe a {
-    padding: 1.9% 3%;
+    padding: 2% 3%;
     border-radius: 0 4px 4px 0;
     border: 1px solid #2A2A2A;
     color: #FFFFFF;
@@ -222,7 +221,7 @@ footer {
 
 
 /* Responsive Mobile Starts Here */
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 600px) {
     header {
         margin: 1% 5%;
         justify-content: space-between;
@@ -253,11 +252,13 @@ footer {
     .header-logo.hide {
         display: none;
     }
+
     .hamburger-menu.visible {
         display: flex;
         flex-direction: column;
         /* margin-left: 8%; */
     }
+    
     .hamburger-menu a {
         font-size: 16px;
         font-weight: 700;
@@ -293,7 +294,7 @@ footer {
     .header-footer-click.hide {
         display: block;
         width: 50%;
-        height: 300vh;
+        /* height: 300vh; */
         position: absolute;
         top: 3;
         right: 0;
@@ -359,14 +360,15 @@ footer {
     }
     
     .footer-hamburger-click .subscribe ::placeholder {
-        font-size: 14px;
+        font-size: 12px;
     }
     
     .footer-hamburger-click .subscribe a {
-        font-size: 14px;
-        padding: 1.8% 3%;
+        font-size: 12px;
+        padding: 2.5% 3%;
         border-radius: 0 4px 4px 0;
         border: 1px solid #2A2A2A;
+        margin-left: -3%;
     }
     
     .footer-hamburger-click .subscribe a:hover {
@@ -385,25 +387,64 @@ footer {
     /* Hamburger Responsive Clicks End Here*/
 }
 
+@media screen and (max-width: 420px) {
+    .hamburger-menu a {
+        font-size: 14px;
+        width: 60%;
+    }
+
+    .footer-hamburger-link a {
+        font-size: 14px;
+    }
+
+    .footer-hamburger-click p {
+        font-size: 14px;
+    }
+
+    .footer-hamburger-click .subscribe input {
+        width: 60%;
+        padding: 1.4% 0%;
+        border-radius: 4px 0 0 4px;
+        border: 1px solid #2A2A2A;
+    }
+
+    .footer-hamburger-click .subscribe ::placeholder {
+        font-size: 10px;
+    }
+    
+    .footer-hamburger-click .subscribe a {
+        font-size: 10px;
+        padding: 2.5% 3%;
+        border-radius: 0 4px 4px 0;
+        border: 1px solid #2A2A2A;
+        margin-left: -4%;
+    }
+}
+
     /* Tablets Responsiveness Starts Here*/
-@media screen and (max-width: 990px) and (min-width: 721px) {
+@media screen and (max-width: 990px) and (min-width: 601px) {
     .header-logo {
-        width: 20%;
+        width: 15%;
     }
     
     nav {
-        width: 90%;
+        width: 100%;
         margin: 0 3% 0 5%;
     }
 
     nav .header-menus {
         display: flex;
-        align-items: center;
+        justify-content: flex-end;
+        gap: 3%;
     }
 
     nav a {
-        font-size: 14px;
+        font-size: 11px;
         font-weight: 400;
+        }
+
+        .search-input {
+            width: 42%;
         }
 
         .search-input input {
@@ -411,21 +452,83 @@ footer {
         }
         
         .search-input input::placeholder {
-            font-size: 12px;
+            font-size: 11px;
             font-weight: 400;
             letter-spacing: -0.02em;
             color: rgba(42, 42, 42, 1);
         }
+
+        .search-input img {
+            width: 8%;
+        }
         
         header .header-btn {
-            font-size: 12px;
-            /* padding: 1% 2%; */
+            font-size: 11px;
+            padding: 1.3%;
             border-radius: 4px;
             background: #EE9A09;
             color: #FFFFFF;
             border: none;
             transition: ease 0.3s;
         }
+
+        /*Footer starts Here*/
+
+        .footer-links h3 {
+            font-size: 14px;
+            /* margin-bottom: 15%; */
+        }
+
+        .footer-links a {
+            font-size: 11px;
+            /* margin-bottom: 11%; */
+        }
+
+        .subscribe p {
+            font-size: 11px;
+            /* line-height: 18px; */
+            margin-bottom: 5%;
+        }
+
+        .subscribe input {
+            padding: 1% 0%;
+            width: 60%;
+            border-radius: 4px 0 0 4px;
+            border: 1px solid #2A2A2A;
+            vertical-align: middle;
+        }
+
+        .subscribe ::placeholder {
+            font-size: 10px;
+            font-weight: 500;
+            letter-spacing: -0.02em;
+            text-align: center;
+            color: rgba(42, 42, 42, 0.7);
+            /* vertical-align: middle; */
+        }
+
+        .subscribe a {
+            /* padding: 2.5% 3%; */
+            border-radius: 0 4px 4px 0;
+            border: 1px solid #2A2A2A;
+            color: #FFFFFF;
+            background-color: #2A2A2A;
+            font-size: 10px;
+            font-weight: 500;
+            letter-spacing: -0.02em;
+            text-align: center;
+            margin-left: -3%;
+            vertical-align: middle;
+            transition: 0.2s ease;
+        }
+
+        .subscribe a:hover {
+            color: #2A2A2A;
+            background-color: #FFFFFF;
+        }
+
+        /*Footer Ends Here*/
+
 }
 
     /* Responsive Mobile Ends Here */

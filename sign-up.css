@@ -9,7 +9,7 @@
 body {
     font-family: 'Lato', sans-serif;
     font-style: normal;
-    height: 100%;
+    max-width: 1920px;
 }
 
 img {
@@ -63,6 +63,10 @@ main {
 .nav-link a:hover {
     border-bottom: 1px solid rgba(238, 154, 9, 1);
     padding-bottom: 1%;
+}
+
+.hamburger-icon, .close-icon, .hamburger-nav-link {
+    display: none;
 }
 
 .bg-img {
@@ -256,5 +260,60 @@ input {
 
     .sign-up-alt img {
         width: 5%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .nav-link {
+        display: none;
+    }  
+    
+    .left-section {
+        position: relative;
+    }
+
+    .hamburger-icon {
+        display: block;
+        width: 15%;
+        position: absolute;
+        top: 1%;
+        right: 7%;
+    }
+
+    .close-icon {
+        display: block;
+        width: 10%;
+        position: absolute;
+        top: 1%;
+        right: 7%;
+    }
+
+    .close-icon.hide {
+        display: none;
+    }
+
+    .hamburger-icon.hide {
+        display: none;
+    }
+
+    .hamburger-nav-link.visible {
+        display: flex;
+        /* flex-direction: column; */
+        background-color: #FFFFFF;
+        position: absolute;
+        top: 5%;
+        left: 0;
+        right: 0;
+    }
+    
+    .hamburger-nav-link a {
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0em;
+        color: rgba(238, 154, 9, 1);
+        /* margin-bottom: 10%; */
+        padding-bottom: 2%;
+        width: 45%;
     }
 }
